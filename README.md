@@ -1,11 +1,6 @@
-<!-- Wave Header -->
+<!-- Sleek Portfolio Unified Dashboard -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:08080a,100:0ea5e9&height=80&section=header"/>
-</p>
-
-<!-- Sleek Portfolio Banner -->
-<p align="center">
-  <img src="./banner.svg" width="100%" alt="Saksham Aggarwal — AI Engineer"/>
+  <img src="./dashboard.svg" width="100%" alt="Saksham Aggarwal — AI Engineer Dashboard"/>
 </p>
 
 <!-- Minimal Typing SVG -->
@@ -16,54 +11,14 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=SakshamSuper&style=flat-square&color=0ea5e9&labelColor=08080a&label=VIEWS" />
+  <img src="https://komarev.com/ghpvc/?username=SakshamSuper&style=flat-square&color=0ea5e9&labelColor=0d1117&label=VIEWS" />
   &nbsp;
-  <img src="https://img.shields.io/github/followers/SakshamSuper?style=flat-square&color=0ea5e9&labelColor=08080a&label=FOLLOWERS" />
+  <img src="https://img.shields.io/github/followers/SakshamSuper?style=flat-square&color=0ea5e9&labelColor=0d1117&label=FOLLOWERS" />
 </p>
 
 <br/>
 
-### 🏆 &nbsp;Hackathon Wins
-
-<p align="left">
-  • <b>🏆 1st Place</b> — Zero to One Hackathon (Chandigarh University) | Beaten 600+ Teams <br/>
-  • <b>🥈 Runner-Up</b> — HackLLM Hackathon (IIIT Delhi) | LLM Agent Track
-</p>
-
-<br/>
-
-### 🎓 &nbsp;Verified Credentials
-
-<p align="center">
-<table>
-<tr>
-<td align="center" width="150">
-  <img src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg" width="55"/><br/>
-  <b>Azure AI Engineer</b><br/><code>AI-102</code>
-</td>
-<td align="center" width="150">
-  <img src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg" width="55"/><br/>
-  <b>Data Scientist</b><br/><code>DP-100</code>
-</td>
-<td align="center" width="150">
-  <img src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg" width="55"/><br/>
-  <b>Fabric Analytics</b><br/><code>DP-600</code>
-</td>
-<td align="center" width="150">
-  <img src="https://images.credly.com/size/340x340/images/42171545-21d3-4a11-b0be-3cd9cdb84f3e/image.png" width="55"/><br/>
-  <b>Oracle OCI</b><br/><code>Associate</code>
-</td>
-<td align="center" width="150">
-  <img src="https://images.credly.com/size/340x340/images/2237eb89-bc89-4bc2-afdf-3e61c5bc79fa/image.png" width="55"/><br/>
-  <b>Postman Expert</b><br/><code>API Specialist</code>
-</td>
-</tr>
-</table>
-</p>
-
-<br/>
-
-### ⚡ &nbsp;Tech Stack
+### ⚡ &nbsp;`$ cat tech-stack.md`
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -73,39 +28,34 @@
 
 <br/>
 
-### 📊 &nbsp;GitHub Analytics
+### 📊 &nbsp;`$ git stats --analytics`
 
 <p align="center">
-  <img height="150" src="https://github-readme-stats-sigma-five.vercel.app/api?username=SakshamSuper&show_icons=true&theme=tokyonight&hide_border=true&bg_color=08080a&title_color=0ea5e9&icon_color=0ea5e9&text_color=A8B2C0&ring_color=0ea5e9&count_private=true" />
+  <img height="150" src="https://github-readme-stats-sigma-five.vercel.app/api?username=SakshamSuper&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0ea5e9&icon_color=0ea5e9&text_color=A8B2C0&ring_color=0ea5e9&count_private=true" />
   &nbsp;&nbsp;
-  <img height="150" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=SakshamSuper&layout=compact&theme=tokyonight&hide_border=true&bg_color=08080a&title_color=0ea5e9&text_color=A8B2C0" />
+  <img height="150" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=SakshamSuper&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0ea5e9&text_color=A8B2C0" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SakshamSuper&bg_color=08080a&color=0ea5e9&line=0ea5e9&point=ffffff&area=true&area_color=0ea5e920&hide_border=true&radius=8" width="95%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SakshamSuper&bg_color=0d1117&color=0ea5e9&line=0ea5e9&point=ffffff&area=true&area_color=0ea5e920&hide_border=true&radius=8" width="95%" />
 </p>
 
 <br/>
 
-### 📬 &nbsp;Let's Connect
+### 📬 &nbsp;`$ open --socials`
 
 <p align="center">
   <a href="https://linkedin.com/in/saksham-aggarwal-1343b0219" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=08080a"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117"/>
   </a>
   &nbsp;
   <a href="mailto:sakshamaggarwal2475@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-Mail_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=08080a"/>
+    <img src="https://img.shields.io/badge/Gmail-Mail_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117"/>
   </a>
   &nbsp;
   <a href="https://portfolio-35r4.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-Visit-00D4FF?style=for-the-badge&logo=vercel&logoColor=black&labelColor=08080a"/>
+    <img src="https://img.shields.io/badge/Portfolio-Visit-0ea5e9?style=for-the-badge&logo=vercel&logoColor=black&labelColor=0d1117"/>
   </a>
 </p>
 
 <br/>
-
-<!-- Wave Footer -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:08080a&height=80&section=footer"/>
-</p>
