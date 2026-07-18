@@ -120,13 +120,13 @@
 ### 📈 &nbsp;`$ git stats --analytics`
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=SakshamSuper&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00D4FF&icon_color=00D4FF&text_color=c9d1d9&ring_color=00D4FF&count_private=true"/>
+  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=SakshamSuper&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00D4FF&icon_color=00D4FF&text_color=c9d1d9&ring_color=00D4FF&count_private=true"/>
   &nbsp;&nbsp;
   <img height="180" src="https://streak-stats.demolab.com?user=SakshamSuper&theme=tokyonight&hide_border=true&background=0d1117&ring=00D4FF&fire=00D4FF&currStreakLabel=00D4FF&sideLabels=c9d1d9&dates=c9d1d9"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SakshamSuper&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00D4FF&text_color=c9d1d9&langs_count=10"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=SakshamSuper&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00D4FF&text_color=c9d1d9&langs_count=10"/>
 </p>
 
 <p align="center">
@@ -138,7 +138,7 @@
 ### 🏅 &nbsp;`$ ./display-achievements --trophies`
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=SakshamSuper&theme=darkhub&no-bg=true&no-frame=true&column=7&margin-w=10"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=SakshamSuper&theme=tokyonight&no-bg=true&no-frame=true&column=6&margin-w=8"/>
 </p>
 
 ---
