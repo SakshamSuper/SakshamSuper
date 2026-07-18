@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 150" width="700" height="150">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0b10"/>
+      <stop offset="100%" stop-color="#050608"/>
+    </linearGradient>
+
+    <!-- Header Gradient -->
+    <linearGradient id="header-bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f111a"/>
+      <stop offset="100%" stop-color="#07080c"/>
+    </linearGradient>
+
+    <linearGradient id="border-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(0, 212, 255, 0.25)" />
+      <stop offset="100%" stop-color="rgba(139, 92, 246, 0.1)" />
+    </linearGradient>
+    
+    <clipPath id="window-clip"><rect width="700" height="150" rx="10" ry="10"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#window-clip)">
+    <!-- Terminal Body -->
+    <rect width="700" height="150" fill="url(#bg)"/>
+    <rect x="0.5" y="0.5" width="699" height="149" fill="none" stroke="url(#border-glow)" stroke-width="1" rx="10" ry="10" />
+
+    <!-- Title Bar -->
+    <rect width="700" height="30" fill="url(#header-bg)"/>
+    <line x1="0" y1="30" x2="700" y2="30" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1"/>
+
+    <!-- macOS traffic buttons -->
+    <circle cx="16" cy="15" r="4.5" fill="#ff5f56"/>
+    <circle cx="30" cy="15" r="4.5" fill="#ffbd2e"/>
+    <circle cx="44" cy="15" r="4.5" fill="#27c93f"/>
+
+    <text x="350" y="19" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10.5" fill="#8892A4">console // whoami</text>
+
+    <!-- Terminal Content -->
+    <g transform="translate(25, 58)" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" fill="#E2E8F0">
+      <text x="0" y="0"><tspan fill="#00D4FF">❯ </tspan>whoami</text>
+      
+      <g transform="translate(15, 22)" fill="#94A3B8">
+        <text x="0" y="0">Name  : <tspan fill="#F8FAFC" font-weight="bold">Saksham Aggarwal</tspan></text>
+        <text x="0" y="18">Role  : <tspan fill="#00D4FF">AI Engineer &amp; Data Scientist</tspan></text>
+        <text x="0" y="36">Focus : <tspan fill="#F8FAFC">Computer Vision · LLM Agents · ML Forecasting</tspan></text>
+        <text x="0" y="54">Status: <tspan fill="#10b981" font-weight="bold">Open to Work ✓</tspan></text>
+      </g>
+    </g>
+
+    <!-- Glowing dot top right -->
+    <circle cx="675" cy="15" r="3.5" fill="#10b981">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+  </g>
+</svg>
