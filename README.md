@@ -98,20 +98,20 @@
 
 <p align="center">
   <a href="https://github.com/SakshamSuper/POSTURE-ANALYSIS-SYSTEM">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SakshamSuper&repo=POSTURE-ANALYSIS-SYSTEM&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=C9D1D9&border_radius=10"/>
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=SakshamSuper&repo=POSTURE-ANALYSIS-SYSTEM&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=C9D1D9&border_radius=10"/>
   </a>
   &nbsp;
   <a href="https://github.com/SakshamSuper/CRYPTO_PRICE_ANALYSIS">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SakshamSuper&repo=CRYPTO_PRICE_ANALYSIS&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=C9D1D9&border_radius=10"/>
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=SakshamSuper&repo=CRYPTO_PRICE_ANALYSIS&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=C9D1D9&border_radius=10"/>
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/SakshamSuper/AI-physio-analysis">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SakshamSuper&repo=AI-physio-analysis&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=C9D1D9&border_radius=10"/>
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=SakshamSuper&repo=AI-physio-analysis&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=C9D1D9&border_radius=10"/>
   </a>
   &nbsp;
   <a href="https://github.com/SakshamSuper/portfolio">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SakshamSuper&repo=portfolio&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=C9D1D9&border_radius=10"/>
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=SakshamSuper&repo=portfolio&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=C9D1D9&border_radius=10"/>
   </a>
 </p>
 
