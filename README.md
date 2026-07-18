@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a0a2e,100:00d4ff&height=120&section=header&text=&fontSize=0"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a0a2e,100:ff5540&height=120&section=header&text=&fontSize=0"/>
 </p>
 
 <p align="center">
@@ -7,13 +7,13 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=800&color=00D4FF&background=00000000&center=true&vCenter=true&multiline=false&width=700&height=50&lines=AI+Engineer+%7C+Data+Scientist+%F0%9F%A4%96;Azure+AI+Engineer+%E2%98%81%EF%B8%8F+Certified+(AI-102);%F0%9F%8F%86+1st+Place+%E2%80%94+Zero+to+One+(600%2B+Teams);Computer+Vision+%C2%B7+LLM+Agents+%C2%B7+ML+Forecasting;Open+to+Work+%E2%80%94+Let%27s+Build+Something+Great!" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=800&color=FF5540&background=00000000&center=true&vCenter=true&multiline=false&width=700&height=50&lines=AI+Engineer+%7C+Data+Scientist+%F0%9F%A4%96;Azure+AI+Engineer+%E2%98%81%EF%B8%8F+Certified+(AI-102);%F0%9F%8F%86+1st+Place+%E2%80%94+Zero+to+One+(600%2B+Teams);Computer+Vision+%C2%B7+LLM+Agents+%C2%B7+ML+Forecasting;Open+to+Work+%E2%80%94+Let%27s+Build+Something+Great!" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=SakshamSuper&style=for-the-badge&color=00d4ff&labelColor=0e0520&label=PROFILE+VIEWS" />
+  <img src="https://komarev.com/ghpvc/?username=SakshamSuper&style=for-the-badge&color=ff5540&labelColor=0e0520&label=PROFILE+VIEWS" />
   &nbsp;
-  <img src="https://img.shields.io/github/followers/SakshamSuper?style=for-the-badge&color=00d4ff&labelColor=0e0520&label=FOLLOWERS" />
+  <img src="https://img.shields.io/github/followers/SakshamSuper?style=for-the-badge&color=ff5540&labelColor=0e0520&label=FOLLOWERS" />
   &nbsp;
   <img src="https://img.shields.io/badge/OPEN%20TO%20WORK-brightgreen?style=for-the-badge&labelColor=0e0520" />
 </p>
@@ -30,10 +30,10 @@
 
 ---
 
-### 📊 &nbsp;`$ neofetch --achievements`
+### 📊 &nbsp;`$ neofetch --community`
 
 <p align="center">
-  <img src="./achievements.svg" />
+  <img src="./community.svg" />
 </p>
 
 ---
@@ -41,7 +41,7 @@
 ### ⚡ &nbsp;`$ cat tech-stack.md`
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,ts,java,cpp,tensorflow,pytorch,opencv,sklearn,azure,nextjs,mysql,postman,git,vscode,jupyter&perline=11" />
+  <img src="https://skillicons.dev/icons?i=py,ts,js,java,cpp,react,nextjs,nodejs,django,flask,tailwind,postgres,mongodb,mysql,firebase,supabase,docker,git,vscode,aws,azure,linux&perline=11" />
 </p>
 
 <p align="center">
@@ -54,42 +54,30 @@
 
 | Category | Technologies |
 |---|---|
-| **Languages** | ![Python](https://img.shields.io/badge/Python-Advanced-3776AB?style=flat-square&logo=python&logoColor=white) ![C++](https://img.shields.io/badge/C++-Intermediate-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![Java](https://img.shields.io/badge/Java-Intermediate-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-Intermediate-3178C6?style=flat-square&logo=typescript&logoColor=white) |
-| **AI / ML** | ![TensorFlow](https://img.shields.io/badge/TensorFlow-Advanced-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-Intermediate-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-Advanced-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![HuggingFace](https://img.shields.io/badge/HuggingFace-Intermediate-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![scikit-learn](https://img.shields.io/badge/scikit--learn-Advanced-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) |
-| **Cloud** | ![Azure](https://img.shields.io/badge/Azure_AI_Engineer-AI--102_Certified-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) |
-| **Web / Tools** | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-Certified-FF6C37?style=flat-square&logo=postman&logoColor=white) ![Git](https://img.shields.io/badge/Git-Advanced-F05032?style=flat-square&logo=git&logoColor=white) |
+| **Languages** | ![Python](https://img.shields.io/badge/Python-Advanced-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-Advanced-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-Advanced-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Java](https://img.shields.io/badge/Java-Intermediate-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![C++](https://img.shields.io/badge/C++-Intermediate-00599C?style=flat-square&logo=cplusplus&logoColor=white) |
+| **Frontend** | ![React](https://img.shields.io/badge/React-Advanced-61DAFB?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-Advanced-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-Advanced-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-Expert-E34F26?style=flat-square&logo=html5&logoColor=white) |
+| **Backend** | ![Node.js](https://img.shields.io/badge/Node.js-Advanced-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Django](https://img.shields.io/badge/Django-Intermediate-092E20?style=flat-square&logo=django&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-Intermediate-000000?style=flat-square&logo=flask&logoColor=white) |
+| **Databases** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Advanced-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-Advanced-47A248?style=flat-square&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-Intermediate-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-Intermediate-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![Supabase](https://img.shields.io/badge/Supabase-Intermediate-3FCF8E?style=flat-square&logo=supabase&logoColor=white) |
+| **Cloud & DevOps** | ![AWS](https://img.shields.io/badge/AWS-Learning-FF9900?style=flat-square&logo=amazonaws&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-Learning-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-Intermediate-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-Advanced-F05032?style=flat-square&logo=git&logoColor=white) |
+| **AI / ML** | ![TensorFlow](https://img.shields.io/badge/AI%2FML-Learning-ff5540?style=flat-square&logo=tensorflow&logoColor=white) ![HuggingFace](https://img.shields.io/badge/HuggingFace-Learning-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![Ollama](https://img.shields.io/badge/Ollama-Learning-000000?style=flat-square&logo=ollama&logoColor=white) |
+| **Management** | ![PM](https://img.shields.io/badge/Program%20Mgmt-Expert-ff5540?style=flat-square) ![Ops](https://img.shields.io/badge/Operations-Expert-3fb950?style=flat-square) ![Community](https://img.shields.io/badge/Community-Expert-58a6ff?style=flat-square) |
 
 </details>
 
 ---
 
-### 🎓 &nbsp;`$ ls certifications/ -la`
+### 💼 &nbsp;`$ cat experience.log --timeline`
 
 <p align="center">
-<table>
-<tr>
-<td align="center" width="155">
-  <img src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg" width="60"/><br/>
-  <b>Azure AI Engineer</b><br/><code>AI-102</code>
-</td>
-<td align="center" width="155">
-  <img src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg" width="60"/><br/>
-  <b>Data Scientist</b><br/><code>DP-100</code>
-</td>
-<td align="center" width="155">
-  <img src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg" width="60"/><br/>
-  <b>Fabric Analytics</b><br/><code>DP-600</code>
-</td>
-<td align="center" width="155">
-  <img src="https://images.credly.com/size/340x340/images/42171545-21d3-4a11-b0be-3cd9cdb84f3e/image.png" width="60"/><br/>
-  <b>Oracle OCI</b><br/><code>Cloud Certified</code>
-</td>
-<td align="center" width="155">
-  <img src="https://images.credly.com/size/340x340/images/2237eb89-bc89-4bc2-afdf-3e61c5bc79fa/image.png" width="60"/><br/>
-  <b>Postman Expert</b><br/><code>Student Expert</code>
-</td>
-</tr>
-</table>
+  <img src="./experience.svg" />
+</p>
+
+---
+
+### 🏆 &nbsp;`$ ./display-achievements --trophies`
+
+<p align="center">
+  <img src="./hackathons.svg" />
 </p>
 
 ---
@@ -97,48 +85,37 @@
 ### 🚀 &nbsp;`$ ls ~/projects --featured`
 
 <p align="center">
-  <a href="https://github.com/SakshamSuper/POSTURE-ANALYSIS-SYSTEM">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=SakshamSuper&repo=POSTURE-ANALYSIS-SYSTEM&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=C9D1D9&border_radius=10"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/SakshamSuper/CRYPTO_PRICE_ANALYSIS">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=SakshamSuper&repo=CRYPTO_PRICE_ANALYSIS&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=C9D1D9&border_radius=10"/>
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/SakshamSuper/AI-physio-analysis">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=SakshamSuper&repo=AI-physio-analysis&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=C9D1D9&border_radius=10"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/SakshamSuper/portfolio">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=SakshamSuper&repo=portfolio&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=C9D1D9&border_radius=10"/>
-  </a>
+  <img src="./projects.svg" />
 </p>
 
 ---
 
-### 📈 &nbsp;`$ git stats --analytics`
+### 📊 &nbsp;`$ git stats --analytics`
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=SakshamSuper&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00D4FF&icon_color=00D4FF&text_color=c9d1d9&ring_color=00D4FF&count_private=true"/>
+  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=SakshamSuper&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff5540&icon_color=ff5540&text_color=c9d1d9&ring_color=ff5540&count_private=true"/>
   &nbsp;&nbsp;
-  <img height="180" src="https://streak-stats.demolab.com?user=SakshamSuper&theme=tokyonight&hide_border=true&background=0d1117&ring=00D4FF&fire=00D4FF&currStreakLabel=00D4FF&sideLabels=c9d1d9&dates=c9d1d9"/>
+  <img height="180" src="https://streak-stats.demolab.com?user=SakshamSuper&theme=tokyonight&hide_border=true&background=0d1117&ring=ff5540&fire=ff5540&currStreakLabel=ff5540&sideLabels=c9d1d9&dates=c9d1d9"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=SakshamSuper&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00D4FF&text_color=c9d1d9&langs_count=10"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SakshamSuper&bg_color=0d1117&color=00D4FF&line=00D4FF&point=ffffff&area=true&area_color=00d4ff20&hide_border=true&radius=6"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=SakshamSuper&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff5540&text_color=c9d1d9&langs_count=10"/>
 </p>
 
 ---
 
-### 🏅 &nbsp;`$ ./display-achievements --trophies`
+### 📈 &nbsp;`$ git log --graph --activity`
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=SakshamSuper&theme=tokyonight&no-bg=true&no-frame=true&column=6&margin-w=8"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SakshamSuper&bg_color=0d1117&color=ff5540&line=ff5540&point=ffffff&area=true&area_color=ff554020&hide_border=true&radius=6"/>
+</p>
+
+---
+
+### 🎯 &nbsp;`$ cat goals.txt`
+
+<p align="center">
+  <img src="./terminal.svg" />
 </p>
 
 ---
@@ -151,6 +128,14 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SakshamSuper/SakshamSuper/output/github-contribution-grid-snake.svg"/>
     <img alt="contribution snake" src="https://raw.githubusercontent.com/SakshamSuper/SakshamSuper/output/github-contribution-grid-snake-dark.svg"/>
   </picture>
+</p>
+
+---
+
+### 🏅 &nbsp;GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=SakshamSuper&theme=darkhub&no-bg=true&no-frame=true&column=7&margin-w=10"/>
 </p>
 
 ---
@@ -171,20 +156,20 @@
   </a>
   &nbsp;
   <a href="mailto:sakshamaggarwal2475@gmail.com">
-    <img src="https://img.shields.io/badge/Email-00d4ff?style=for-the-badge&logo=gmail&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Email-ff5540?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/SakshamSuper/">
+    <img src="https://img.shields.io/badge/GitHub-161b22?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
   &nbsp;
   <a href="https://portfolio-35r4.vercel.app">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/SakshamSuper">
-    <img src="https://img.shields.io/badge/GitHub-161b22?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
 </p>
 
 <br/>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,50:1a0a2e,100:0d1117&height=120&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a0a2e,100:ff5540&height=120&section=footer"/>
 </p>
