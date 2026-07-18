@@ -19,47 +19,33 @@
 
 <br/>
 
-<!-- Compact Console Info Card -->
+---
+
+### 💻 &nbsp;`$ whoami --verbose`
+
 <p align="center">
   <img src="./whoami.svg" width="90%" alt="Console info"/>
 </p>
 
-<br/>
+---
+
+### 🏆 &nbsp;`$ ./display-achievements --trophies`
+
+<p align="center">
+  <img src="./achievements.svg" width="90%" alt="Achievements Console"/>
+</p>
 
 ---
 
-### 🎓 &nbsp;Verified Credentials
+### 🚀 &nbsp;`$ ls ~/projects --featured`
 
 <p align="center">
-<table>
-<tr>
-<td align="center" width="150">
-  <img src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg" width="55"/><br/>
-  <b>Azure AI Engineer</b><br/><code>AI-102</code>
-</td>
-<td align="center" width="150">
-  <img src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg" width="55"/><br/>
-  <b>Data Scientist</b><br/><code>DP-100</code>
-</td>
-<td align="center" width="150">
-  <img src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg" width="55"/><br/>
-  <b>Fabric Analytics</b><br/><code>DP-600</code>
-</td>
-<td align="center" width="150">
-  <img src="https://images.credly.com/size/340x340/images/42171545-21d3-4a11-b0be-3cd9cdb84f3e/image.png" width="55"/><br/>
-  <b>Oracle OCI</b><br/><code>Associate</code>
-</td>
-<td align="center" width="150">
-  <img src="https://images.credly.com/size/340x340/images/2237eb89-bc89-4bc2-afdf-3e61c5bc79fa/image.png" width="55"/><br/>
-  <b>Postman Expert</b><br/><code>API Specialist</code>
-</td>
-</tr>
-</table>
+  <img src="./projects.svg" width="90%" alt="Projects Console"/>
 </p>
 
-<br/>
+---
 
-### ⚡ &nbsp;Tech Stack
+### ⚡ &nbsp;`$ cat tech-stack.md`
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -67,9 +53,9 @@
   </a>
 </p>
 
-<br/>
+---
 
-### 📊 &nbsp;GitHub Analytics
+### 📊 &nbsp;`$ git stats --analytics`
 
 <p align="center">
   <img height="150" src="https://github-readme-stats-sigma-five.vercel.app/api?username=SakshamSuper&show_icons=true&theme=tokyonight&hide_border=true&bg_color=020817&title_color=0ea5e9&icon_color=0ea5e9&text_color=A8B2C0&ring_color=0ea5e9&count_private=true" />
@@ -81,9 +67,9 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=SakshamSuper&bg_color=020817&color=0ea5e9&line=0ea5e9&point=ffffff&area=true&area_color=0ea5e920&hide_border=true&radius=8" width="95%" />
 </p>
 
-<br/>
+---
 
-### 📬 &nbsp;Let's Connect
+### 📬 &nbsp;`$ open --socials`
 
 <p align="center">
   <a href="https://linkedin.com/in/saksham-aggarwal-1343b0219" target="_blank">
