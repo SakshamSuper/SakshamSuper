@@ -1,74 +1,71 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
   <defs>
-    <linearGradient id="termBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#161b22"/>
-      <stop offset="100%" stop-color="#0d1117"/>
+    <linearGradient id="comBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"  stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
     </linearGradient>
-    <linearGradient id="titleBarGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1a0a2e"/>
+    <linearGradient id="comBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#1a0a2e"/>
       <stop offset="100%" stop-color="#21262d"/>
     </linearGradient>
-    <linearGradient id="shimmer" x1="0" y1="0" x2="150" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
-      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.1" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
-      <animate attributeName="x1" values="-200;1000" dur="4s" repeatCount="indefinite" />
-      <animate attributeName="x2" values="0;1200" dur="4s" repeatCount="indefinite" />
+    <linearGradient id="comShimmer" x1="-100%" y1="0%" x2="-60%" y2="0%" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#fff" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#fff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+      <animate attributeName="x1" values="-800;900;-800" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="-400;1300;-400" dur="4s" repeatCount="indefinite"/>
     </linearGradient>
-    <clipPath id="windowClip">
-      <rect width="800" height="200" rx="10" ry="10" />
-    </clipPath>
+    <!-- Number gradients -->
+    <linearGradient id="gCyan"  x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#00d4ff"/><stop offset="100%" stop-color="#0066cc"/></linearGradient>
+    <linearGradient id="gAmber" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#ffbd2e"/><stop offset="100%" stop-color="#FF6F00"/></linearGradient>
+    <linearGradient id="gGreen" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#28c840"/><stop offset="100%" stop-color="#00994d"/></linearGradient>
+    <linearGradient id="gPurple" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#6366f1"/></linearGradient>
+    <clipPath id="comClip"><rect width="800" height="200" rx="10"/></clipPath>
   </defs>
 
-  <g clip-path="url(#windowClip)">
-    <rect width="800" height="200" fill="url(#termBg)"/>
-    <rect width="800" height="200" fill="none" stroke="#30363d" stroke-width="2"/>
-    <rect width="800" height="35" fill="url(#titleBarGrad)"/>
-    <rect width="800" height="35" fill="url(#shimmer)"/>
-    
-    <circle cx="20" cy="17.5" r="6" fill="#ff5f56"/>
-    <circle cx="40" cy="17.5" r="6" fill="#ffbd2e"/>
-    <circle cx="60" cy="17.5" r="6" fill="#27c93f"/>
+  <g clip-path="url(#comClip)">
+    <rect width="800" height="200" fill="url(#comBg)"/>
 
-    <text x="400" y="23" font-family="'Courier New', monospace" font-size="14" fill="#8b949e" text-anchor="middle">saksham@github:~</text>
-    <rect x="0" y="35" width="800" height="1" fill="#30363d"/>
+    <!-- Title bar -->
+    <rect width="800" height="36" fill="url(#comBar)"/>
+    <rect width="800" height="36" fill="url(#comShimmer)"/>
+    <circle cx="20" cy="18" r="6" fill="#ff5f57"/>
+    <circle cx="40" cy="18" r="6" fill="#ffbd2e"/>
+    <circle cx="60" cy="18" r="6" fill="#28c840"/>
+    <text x="400" y="23" text-anchor="middle" font-family="'Courier New',monospace" font-size="12" fill="#8b949e">neofetch --achievements</text>
 
-    <g font-family="'Courier New', monospace" font-size="15" transform="translate(25, 65)">
-      <text fill="#00D4FF">❯ <tspan fill="#e6edf3">cat achievements.log</tspan></text>
-      
-      <g transform="translate(10, 30)">
-        <!-- Box 1 -->
-        <g transform="translate(0, 0)">
-          <rect width="230" height="70" rx="6" fill="#0d1117" stroke="#00D4FF" stroke-width="1.5" stroke-opacity="0.7"/>
-          <text x="115" y="25" text-anchor="middle" font-size="20">🏆</text>
-          <text x="115" y="45" text-anchor="middle" font-size="14" fill="#e6edf3" font-weight="bold">1st Place</text>
-          <text x="115" y="60" text-anchor="middle" font-size="12" fill="#8b949e">Zero to One (600+ Teams)</text>
-        </g>
+    <!-- Left accent -->
+    <rect x="0" y="36" width="3" height="164" fill="#00d4ff" opacity="0.7"/>
 
-        <!-- Box 2 -->
-        <g transform="translate(250, 0)">
-          <rect width="230" height="70" rx="6" fill="#0d1117" stroke="#ffbd2e" stroke-width="1.5" stroke-opacity="0.7"/>
-          <text x="115" y="25" text-anchor="middle" font-size="20">🥈</text>
-          <text x="115" y="45" text-anchor="middle" font-size="14" fill="#e6edf3" font-weight="bold">Runner-Up</text>
-          <text x="115" y="60" text-anchor="middle" font-size="12" fill="#8b949e">HackLLM · IIIT Delhi</text>
-        </g>
+    <!-- 4 stat boxes -->
 
-        <!-- Box 3 -->
-        <g transform="translate(500, 0)">
-          <rect width="230" height="70" rx="6" fill="#0d1117" stroke="#27c93f" stroke-width="1.5" stroke-opacity="0.7"/>
-          <text x="115" y="25" text-anchor="middle" font-size="20">⭐</text>
-          <text x="115" y="45" text-anchor="middle" font-size="14" fill="#e6edf3" font-weight="bold">Contributor</text>
-          <text x="115" y="60" text-anchor="middle" font-size="12" fill="#8b949e">GSSoC · Open Source</text>
-        </g>
+    <!-- Box 1: Hackathon 1st -->
+    <rect x="20"  y="52" width="178" height="126" rx="8" fill="#0d1117" stroke="#00d4ff" stroke-width="0.8" stroke-opacity="0.4"/>
+    <text x="109" y="100" text-anchor="middle" font-family="'Arial Black',sans-serif" font-size="38" font-weight="900" fill="url(#gCyan)">🏆</text>
+    <text x="109" y="122" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#e6edf3">1st Place</text>
+    <text x="109" y="140" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#8b949e">Zero to One</text>
+    <text x="109" y="156" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#00d4ff">600+ Teams</text>
 
-        <!-- Cursor -->
-        <g transform="translate(-10, 95)">
-          <text fill="#00D4FF">❯</text>
-          <rect x="15" y="-12" width="10" height="15" fill="#e6edf3">
-            <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-          </rect>
-        </g>
-      </g>
-    </g>
+    <!-- Box 2: HackLLM -->
+    <rect x="210" y="52" width="178" height="126" rx="8" fill="#0d1117" stroke="#ffbd2e" stroke-width="0.8" stroke-opacity="0.4"/>
+    <text x="299" y="100" text-anchor="middle" font-family="'Arial Black',sans-serif" font-size="38" font-weight="900" fill="url(#gAmber)">🥈</text>
+    <text x="299" y="122" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#e6edf3">Runner-Up</text>
+    <text x="299" y="140" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#8b949e">HackLLM</text>
+    <text x="299" y="156" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#ffbd2e">IIIT Delhi</text>
+
+    <!-- Box 3: GSSoC -->
+    <rect x="400" y="52" width="178" height="126" rx="8" fill="#0d1117" stroke="#28c840" stroke-width="0.8" stroke-opacity="0.4"/>
+    <text x="489" y="100" text-anchor="middle" font-family="'Arial Black',sans-serif" font-size="38" font-weight="900" fill="url(#gGreen)">🌟</text>
+    <text x="489" y="122" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#e6edf3">Contributor</text>
+    <text x="489" y="140" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#8b949e">GSSoC</text>
+    <text x="489" y="156" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#28c840">Open Source</text>
+
+    <!-- Box 4: Certs -->
+    <rect x="590" y="52" width="190" height="126" rx="8" fill="#0d1117" stroke="#a78bfa" stroke-width="0.8" stroke-opacity="0.4"/>
+    <text x="685" y="96" text-anchor="middle" font-family="'Arial Black',sans-serif" font-size="34" font-weight="900" fill="url(#gPurple)">5×</text>
+    <text x="685" y="118" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#e6edf3">Certified</text>
+    <text x="685" y="136" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#8b949e">AI-102 · DP-100</text>
+    <text x="685" y="154" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#a78bfa">DP-600 · OCI · Postman</text>
+
   </g>
 </svg>

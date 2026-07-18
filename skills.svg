@@ -1,115 +1,100 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 310" width="700" height="310">
   <defs>
-    <linearGradient id="termBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#161b22"/>
-      <stop offset="100%" stop-color="#0d1117"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"  stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
     </linearGradient>
-    <linearGradient id="titleBarGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1a0a2e"/>
+    <linearGradient id="titleBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#1a0a2e"/>
       <stop offset="100%" stop-color="#21262d"/>
     </linearGradient>
-    <linearGradient id="shimmer" x1="0" y1="0" x2="150" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
-      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.1" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
-      <animate attributeName="x1" values="-200;900" dur="4s" repeatCount="indefinite" />
-      <animate attributeName="x2" values="0;1100" dur="4s" repeatCount="indefinite" />
+    <linearGradient id="shimmer" x1="-100%" y1="0%" x2="-60%" y2="0%" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#fff" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#fff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+      <animate attributeName="x1" values="-700;800;-700" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="-300;1200;-300" dur="4s" repeatCount="indefinite"/>
     </linearGradient>
-    <clipPath id="windowClip">
-      <rect width="700" height="310" rx="10" ry="10" />
-    </clipPath>
-
-    <!-- Progress Gradients -->
-    <linearGradient id="barPy" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#3776AB"/><stop offset="100%" stop-color="#58a6ff"/></linearGradient>
-    <linearGradient id="barTF" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#FF6F00"/><stop offset="100%" stop-color="#ffbd2e"/></linearGradient>
-    <linearGradient id="barCV" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#5C3EE8"/><stop offset="100%" stop-color="#00D4FF"/></linearGradient>
-    <linearGradient id="barAzure" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#0078D4"/><stop offset="100%" stop-color="#00D4FF"/></linearGradient>
-    <linearGradient id="barCpp" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#00599C"/><stop offset="100%" stop-color="#6366f1"/></linearGradient>
-    <linearGradient id="barTS" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#3178C6"/><stop offset="100%" stop-color="#06b6d4"/></linearGradient>
-    <linearGradient id="barTorch" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#EE4C2C"/><stop offset="100%" stop-color="#FF6F00"/></linearGradient>
+    <!-- Bar gradients -->
+    <linearGradient id="bPy"  x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#3776AB"/><stop offset="100%" stop-color="#58a6ff"/></linearGradient>
+    <linearGradient id="bTf"  x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#FF6F00"/><stop offset="100%" stop-color="#ffbd2e"/></linearGradient>
+    <linearGradient id="bCv"  x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#5C3EE8"/><stop offset="100%" stop-color="#00d4ff"/></linearGradient>
+    <linearGradient id="bAz"  x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#0078D4"/><stop offset="100%" stop-color="#00d4ff"/></linearGradient>
+    <linearGradient id="bCpp" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#00599C"/><stop offset="100%" stop-color="#6366f1"/></linearGradient>
+    <linearGradient id="bTs"  x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#3178C6"/><stop offset="100%" stop-color="#06b6d4"/></linearGradient>
+    <linearGradient id="bPt"  x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#EE4C2C"/><stop offset="100%" stop-color="#FF6F00"/></linearGradient>
+    <clipPath id="c"><rect width="700" height="310" rx="10"/></clipPath>
   </defs>
 
-  <g clip-path="url(#windowClip)">
-    <rect width="700" height="310" fill="url(#termBg)"/>
-    <rect width="700" height="310" fill="none" stroke="#30363d" stroke-width="2"/>
-    <rect width="700" height="35" fill="url(#titleBarGrad)"/>
-    <rect width="700" height="35" fill="url(#shimmer)"/>
-    
-    <circle cx="20" cy="17.5" r="6" fill="#ff5f56"/>
-    <circle cx="40" cy="17.5" r="6" fill="#ffbd2e"/>
-    <circle cx="60" cy="17.5" r="6" fill="#27c93f"/>
+  <g clip-path="url(#c)">
+    <rect width="700" height="310" fill="url(#bg)"/>
 
-    <text x="350" y="23" font-family="'Courier New', monospace" font-size="14" fill="#8b949e" text-anchor="middle">saksham@github:~</text>
-    <rect x="0" y="35" width="700" height="1" fill="#30363d"/>
+    <!-- Title bar -->
+    <rect width="700" height="36" fill="url(#titleBar)"/>
+    <rect width="700" height="36" fill="url(#shimmer)"/>
+    <circle cx="20" cy="18" r="6" fill="#ff5f57"/>
+    <circle cx="40" cy="18" r="6" fill="#ffbd2e"/>
+    <circle cx="60" cy="18" r="6" fill="#28c840"/>
+    <text x="350" y="23" text-anchor="middle" font-family="'Courier New',monospace" font-size="12" fill="#8b949e">skills.sh — proficiency</text>
 
-    <g font-family="'Courier New', monospace" font-size="15" transform="translate(25, 65)">
-      <text fill="#00D4FF">❯ <tspan fill="#e6edf3">skills --proficiency</tspan></text>
-      
-      <g transform="translate(0, 30)">
-        <!-- Python -->
-        <g transform="translate(0, 0)">
-          <text fill="#8b949e" y="10" font-size="14">Python</text>
-          <rect x="130" y="2" width="420" height="8" rx="4" fill="#21262d"/>
-          <rect x="130" y="2" width="386.4" height="8" rx="4" fill="url(#barPy)"/>
-          <text x="570" y="10" fill="#e6edf3" font-size="14">92%</text>
-        </g>
+    <!-- Left accent -->
+    <rect x="0" y="36" width="3" height="274" fill="#00d4ff" opacity="0.7"/>
 
-        <!-- OpenCV/CV -->
-        <g transform="translate(0, 25)">
-          <text fill="#8b949e" y="10" font-size="14">OpenCV/CV</text>
-          <rect x="130" y="2" width="420" height="8" rx="4" fill="#21262d"/>
-          <rect x="130" y="2" width="369.6" height="8" rx="4" fill="url(#barCV)"/>
-          <text x="570" y="10" fill="#e6edf3" font-size="14">88%</text>
-        </g>
-        
-        <!-- TensorFlow -->
-        <g transform="translate(0, 50)">
-          <text fill="#8b949e" y="10" font-size="14">TensorFlow</text>
-          <rect x="130" y="2" width="420" height="8" rx="4" fill="#21262d"/>
-          <rect x="130" y="2" width="357" height="8" rx="4" fill="url(#barTF)"/>
-          <text x="570" y="10" fill="#e6edf3" font-size="14">85%</text>
-        </g>
+    <!-- Command -->
+    <text x="20" y="64" font-family="'Courier New',monospace" font-size="13" fill="#00d4ff">❯</text>
+    <text x="34" y="64" font-family="'Courier New',monospace" font-size="13" fill="#e6edf3">skills --proficiency</text>
+    <line x1="20" y1="72" x2="690" y2="72" stroke="#21262d" stroke-width="1"/>
 
-        <!-- Azure AI -->
-        <g transform="translate(0, 75)">
-          <text fill="#8b949e" y="10" font-size="14">Azure AI</text>
-          <rect x="130" y="2" width="420" height="8" rx="4" fill="#21262d"/>
-          <rect x="130" y="2" width="357" height="8" rx="4" fill="url(#barAzure)"/>
-          <text x="570" y="10" fill="#e6edf3" font-size="14">85%</text>
-        </g>
+    <!-- Bar rows: label | track | fill | pct -->
+    <!-- Python 92% -->
+    <text x="28" y="96" font-family="'Courier New',monospace" font-size="11.5" fill="#8b949e">Python    </text>
+    <rect x="115" y="86" width="430" height="9" rx="4.5" fill="#21262d"/>
+    <rect x="115" y="86" width="396" height="9" rx="4.5" fill="url(#bPy)"/>
+    <text x="555" y="96" font-family="'Courier New',monospace" font-size="11" fill="#3776AB">92%</text>
 
-        <!-- PyTorch -->
-        <g transform="translate(0, 100)">
-          <text fill="#8b949e" y="10" font-size="14">PyTorch</text>
-          <rect x="130" y="2" width="420" height="8" rx="4" fill="#21262d"/>
-          <rect x="130" y="2" width="344.4" height="8" rx="4" fill="url(#barTorch)"/>
-          <text x="570" y="10" fill="#e6edf3" font-size="14">82%</text>
-        </g>
-        
-        <!-- TypeScript -->
-        <g transform="translate(0, 125)">
-          <text fill="#8b949e" y="10" font-size="14">TypeScript</text>
-          <rect x="130" y="2" width="420" height="8" rx="4" fill="#21262d"/>
-          <rect x="130" y="2" width="336" height="8" rx="4" fill="url(#barTS)"/>
-          <text x="570" y="10" fill="#e6edf3" font-size="14">80%</text>
-        </g>
+    <!-- TensorFlow 85% -->
+    <text x="28" y="120" font-family="'Courier New',monospace" font-size="11.5" fill="#8b949e">TensorFlow</text>
+    <rect x="115" y="110" width="430" height="9" rx="4.5" fill="#21262d"/>
+    <rect x="115" y="110" width="366" height="9" rx="4.5" fill="url(#bTf)"/>
+    <text x="555" y="120" font-family="'Courier New',monospace" font-size="11" fill="#FF6F00">85%</text>
 
-        <!-- C++ -->
-        <g transform="translate(0, 150)">
-          <text fill="#8b949e" y="10" font-size="14">C++</text>
-          <rect x="130" y="2" width="420" height="8" rx="4" fill="#21262d"/>
-          <rect x="130" y="2" width="327.6" height="8" rx="4" fill="url(#barCpp)"/>
-          <text x="570" y="10" fill="#e6edf3" font-size="14">78%</text>
-        </g>
-        
-        <!-- Prompt & Cursor -->
-        <g transform="translate(0, 185)">
-          <text fill="#00D4FF">❯</text>
-          <rect x="15" y="-12" width="10" height="15" fill="#e6edf3">
-            <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-          </rect>
-        </g>
-      </g>
-    </g>
+    <!-- OpenCV 88% -->
+    <text x="28" y="144" font-family="'Courier New',monospace" font-size="11.5" fill="#8b949e">OpenCV/CV </text>
+    <rect x="115" y="134" width="430" height="9" rx="4.5" fill="#21262d"/>
+    <rect x="115" y="134" width="379" height="9" rx="4.5" fill="url(#bCv)"/>
+    <text x="555" y="144" font-family="'Courier New',monospace" font-size="11" fill="#5C3EE8">88%</text>
+
+    <!-- Azure AI 85% -->
+    <text x="28" y="168" font-family="'Courier New',monospace" font-size="11.5" fill="#8b949e">Azure AI  </text>
+    <rect x="115" y="158" width="430" height="9" rx="4.5" fill="#21262d"/>
+    <rect x="115" y="158" width="366" height="9" rx="4.5" fill="url(#bAz)"/>
+    <text x="555" y="168" font-family="'Courier New',monospace" font-size="11" fill="#0078D4">85%</text>
+
+    <!-- PyTorch 82% -->
+    <text x="28" y="192" font-family="'Courier New',monospace" font-size="11.5" fill="#8b949e">PyTorch   </text>
+    <rect x="115" y="182" width="430" height="9" rx="4.5" fill="#21262d"/>
+    <rect x="115" y="182" width="353" height="9" rx="4.5" fill="url(#bPt)"/>
+    <text x="555" y="192" font-family="'Courier New',monospace" font-size="11" fill="#EE4C2C">82%</text>
+
+    <!-- TypeScript 80% -->
+    <text x="28" y="216" font-family="'Courier New',monospace" font-size="11.5" fill="#8b949e">TypeScript</text>
+    <rect x="115" y="206" width="430" height="9" rx="4.5" fill="#21262d"/>
+    <rect x="115" y="206" width="344" height="9" rx="4.5" fill="url(#bTs)"/>
+    <text x="555" y="216" font-family="'Courier New',monospace" font-size="11" fill="#3178C6">80%</text>
+
+    <!-- C++ 78% -->
+    <text x="28" y="240" font-family="'Courier New',monospace" font-size="11.5" fill="#8b949e">C++       </text>
+    <rect x="115" y="230" width="430" height="9" rx="4.5" fill="#21262d"/>
+    <rect x="115" y="230" width="335" height="9" rx="4.5" fill="url(#bCpp)"/>
+    <text x="555" y="240" font-family="'Courier New',monospace" font-size="11" fill="#00599C">78%</text>
+
+    <line x1="20" y1="255" x2="690" y2="255" stroke="#21262d" stroke-width="1"/>
+
+    <!-- Blinking prompt -->
+    <text x="20" y="284" font-family="'Courier New',monospace" font-size="13" fill="#00d4ff">❯</text>
+    <rect x="34" y="272" width="9" height="14" fill="#e6edf3" rx="1">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+
   </g>
 </svg>
