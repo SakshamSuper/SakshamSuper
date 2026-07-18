@@ -1,116 +1,73 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" width="700" height="320">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%"  stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#161b22"/>
-    </linearGradient>
-    <linearGradient id="titleBar" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#001a2e"/>
+    <!-- Terminal Background Gradient -->
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161b22"/>
       <stop offset="100%" stop-color="#0d1117"/>
     </linearGradient>
-    <linearGradient id="shimmer" x1="-100%" y1="0%" x2="-60%" y2="0%" gradientUnits="userSpaceOnUse">
-      <stop offset="0%"   stop-color="#fff" stop-opacity="0"/>
-      <stop offset="50%"  stop-color="#fff" stop-opacity="0.05"/>
-      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
-      <animate attributeName="x1" values="-800;900;-800" dur="4s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="-400;1300;-400" dur="4s" repeatCount="indefinite"/>
+
+    <!-- Title Bar Gradient -->
+    <linearGradient id="titleBarGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a0a2e"/>
+      <stop offset="100%" stop-color="#21262d"/>
     </linearGradient>
-    <!-- Language bar gradients -->
-    <linearGradient id="bPy"  x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#3776AB"/><stop offset="100%" stop-color="#00D4FF"/></linearGradient>
-    <linearGradient id="bCpp" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#00599C"/><stop offset="100%" stop-color="#6366f1"/></linearGradient>
-    <linearGradient id="bTs"  x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#3178c6"/><stop offset="100%" stop-color="#06b6d4"/></linearGradient>
-    <linearGradient id="bTf"  x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#FF6F00"/><stop offset="100%" stop-color="#FFB800"/></linearGradient>
-    <linearGradient id="bAz"  x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#0078D4"/><stop offset="100%" stop-color="#00D4FF"/></linearGradient>
-    <clipPath id="c"><rect width="800" height="300" rx="12"/></clipPath>
+
+    <!-- Shimmer Animation on Title Bar -->
+    <linearGradient id="shimmer" x1="0" y1="0" x2="150" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+      <animate attributeName="x1" values="-200;900" dur="4s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="0;1100" dur="4s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <!-- Border Radius Clip Path -->
+    <clipPath id="windowClip">
+      <rect width="700" height="320" rx="10" ry="10" />
+    </clipPath>
   </defs>
 
-  <g clip-path="url(#c)">
-    <!-- Card background -->
-    <rect width="800" height="300" fill="url(#bg)" rx="12"/>
-    <rect width="800" height="300" fill="url(#shimmer)"/>
+  <g clip-path="url(#windowClip)">
+    <!-- Main Background -->
+    <rect width="700" height="320" fill="url(#termBg)"/>
+    <rect width="700" height="320" fill="none" stroke="#30363d" stroke-width="2"/>
 
-    <!-- Border -->
-    <rect width="800" height="300" rx="12" fill="none" stroke="#00D4FF" stroke-width="1" stroke-opacity="0.2"/>
+    <!-- Title Bar -->
+    <rect width="700" height="35" fill="url(#titleBarGrad)"/>
+    <rect width="700" height="35" fill="url(#shimmer)"/>
+    
+    <!-- Window Controls -->
+    <circle cx="20" cy="17.5" r="6" fill="#ff5f56"/>
+    <circle cx="40" cy="17.5" r="6" fill="#ffbd2e"/>
+    <circle cx="60" cy="17.5" r="6" fill="#27c93f"/>
 
-    <!-- Title bar -->
-    <rect width="800" height="38" fill="url(#titleBar)"/>
-    <circle cx="22" cy="19" r="6" fill="#ff5f57"/>
-    <circle cx="42" cy="19" r="6" fill="#ffbd2e"/>
-    <circle cx="62" cy="19" r="6" fill="#28c840"/>
-    <text x="90" y="24" font-family="'Courier New',monospace" font-size="12" fill="#8ab4d0">whoami.sh — saksham@ai-engineer</text>
+    <text x="350" y="23" font-family="'Courier New', monospace" font-size="14" fill="#8b949e" text-anchor="middle">saksham@github:~</text>
+    <rect x="0" y="35" width="700" height="1" fill="#30363d"/>
 
-    <!-- Accent left bar -->
-    <rect x="0" y="0" width="3" height="300" fill="#00D4FF" opacity="0.6"/>
-
-    <!-- Prompt line 1 -->
-    <text x="26" y="68" font-family="'Courier New',monospace" font-size="13" fill="#00D4FF">❯</text>
-    <text x="42" y="68" font-family="'Courier New',monospace" font-size="13" fill="#e2e8f0">cat profile.json</text>
-
-    <!-- Name row -->
-    <text x="26" y="92"  font-family="'Courier New',monospace" font-size="12" fill="#636e7b">  name      </text>
-    <text x="130" y="92" font-family="'Courier New',monospace" font-size="12" fill="#f0f6fc">→  "Saksham Aggarwal"</text>
-
-    <!-- Role row -->
-    <text x="26" y="112"  font-family="'Courier New',monospace" font-size="12" fill="#636e7b">  role      </text>
-    <text x="130" y="112" font-family="'Courier New',monospace" font-size="12" fill="#00D4FF">"AI Engineer &amp; Data Scientist"</text>
-
-    <!-- University row -->
-    <text x="26" y="132"  font-family="'Courier New',monospace" font-size="12" fill="#636e7b">  edu       </text>
-    <text x="130" y="132" font-family="'Courier New',monospace" font-size="12" fill="#f0f6fc">"GGSIPU, New Delhi"</text>
-
-    <!-- Focus row -->
-    <text x="26" y="152"  font-family="'Courier New',monospace" font-size="12" fill="#636e7b">  focus     </text>
-    <text x="130" y="152" font-family="'Courier New',monospace" font-size="12" fill="#a5d6ff">"CV · LLM · ML Forecasting · Azure AI"</text>
-
-    <!-- Divider -->
-    <line x1="26" y1="164" x2="774" y2="164" stroke="#21262d" stroke-width="1"/>
-
-    <!-- Skill bars section -->
-    <text x="26" y="184" font-family="'Courier New',monospace" font-size="13" fill="#00D4FF">❯</text>
-    <text x="42" y="184" font-family="'Courier New',monospace" font-size="13" fill="#e2e8f0">skills --proficiency</text>
-
-    <!-- Bar: Python -->
-    <text x="36"  y="202" font-family="'Courier New',monospace" font-size="11" fill="#8ab4d0">Python    </text>
-    <rect x="120" y="192" width="320" height="8" rx="4" fill="#161b22"/>
-    <rect x="120" y="192" width="294" height="8" rx="4" fill="url(#bPy)"/>
-    <text x="448" y="202" font-family="'Courier New',monospace" font-size="11" fill="#3776AB">92%</text>
-
-    <!-- Bar: TensorFlow -->
-    <text x="36"  y="220" font-family="'Courier New',monospace" font-size="11" fill="#8ab4d0">TensorFlow</text>
-    <rect x="120" y="210" width="320" height="8" rx="4" fill="#161b22"/>
-    <rect x="120" y="210" width="272" height="8" rx="4" fill="url(#bTf)"/>
-    <text x="448" y="220" font-family="'Courier New',monospace" font-size="11" fill="#FF6F00">85%</text>
-
-    <!-- Bar: Azure -->
-    <text x="36"  y="238" font-family="'Courier New',monospace" font-size="11" fill="#8ab4d0">Azure AI  </text>
-    <rect x="120" y="228" width="320" height="8" rx="4" fill="#161b22"/>
-    <rect x="120" y="228" width="272" height="8" rx="4" fill="url(#bAz)"/>
-    <text x="448" y="238" font-family="'Courier New',monospace" font-size="11" fill="#0078D4">85%</text>
-
-    <!-- Bar: C++ -->
-    <text x="36"  y="256" font-family="'Courier New',monospace" font-size="11" fill="#8ab4d0">C++       </text>
-    <rect x="120" y="246" width="320" height="8" rx="4" fill="#161b22"/>
-    <rect x="120" y="246" width="249" height="8" rx="4" fill="url(#bCpp)"/>
-    <text x="448" y="256" font-family="'Courier New',monospace" font-size="11" fill="#00599C">78%</text>
-
-    <!-- Bar: TypeScript -->
-    <text x="36"  y="274" font-family="'Courier New',monospace" font-size="11" fill="#8ab4d0">TypeScript</text>
-    <rect x="120" y="264" width="320" height="8" rx="4" fill="#161b22"/>
-    <rect x="120" y="264" width="256" height="8" rx="4" fill="url(#bTs)"/>
-    <text x="448" y="274" font-family="'Courier New',monospace" font-size="11" fill="#3178c6">80%</text>
-
-    <!-- Right column: quick facts -->
-    <text x="520" y="184" font-family="'Courier New',monospace" font-size="11" fill="#636e7b">📍 New Delhi, India</text>
-    <text x="520" y="204" font-family="'Courier New',monospace" font-size="11" fill="#FFB800">🏆 1st · Zero to One (600+ teams)</text>
-    <text x="520" y="224" font-family="'Courier New',monospace" font-size="11" fill="#8ab4d0">🥈 Runner-Up · HackLLM IIIT Delhi</text>
-    <text x="520" y="244" font-family="'Courier New',monospace" font-size="11" fill="#00D4FF">☁️  5× Microsoft Certified</text>
-    <text x="520" y="264" font-family="'Courier New',monospace" font-size="11" fill="#00E5A0">✓  Open to Work</text>
-
-    <!-- Blinking cursor -->
-    <text x="26" y="291" font-family="'Courier New',monospace" font-size="13" fill="#00D4FF">❯</text>
-    <rect x="42" y="280" width="8" height="13" fill="#00D4FF" rx="1">
-      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-    </rect>
-
+    <!-- Terminal Content -->
+    <g font-family="'Courier New', monospace" font-size="15" transform="translate(25, 70)">
+      <!-- Command -->
+      <text fill="#00D4FF">❯ <tspan fill="#e6edf3">cat profile.json</tspan></text>
+      
+      <!-- Content Rows -->
+      <g transform="translate(0, 35)">
+        <text y="0"><tspan fill="#8b949e">name      →</tspan> <tspan fill="#e6edf3" font-weight="bold">'Saksham Aggarwal'</tspan></text>
+        <text y="30"><tspan fill="#8b949e">role      →</tspan> <tspan fill="#00D4FF">'AI Engineer &amp; Data Scientist'</tspan></text>
+        <text y="60"><tspan fill="#8b949e">location  →</tspan> <tspan fill="#e6edf3">'New Delhi, India'</tspan></text>
+        <text y="90"><tspan fill="#8b949e">uni       →</tspan> <tspan fill="#e6edf3">'GGSIPU'</tspan></text>
+        <text y="120"><tspan fill="#8b949e">focus     →</tspan> <tspan fill="#00D4FF">'Computer Vision · LLM · ML Forecasting'</tspan></text>
+        <text y="150"><tspan fill="#8b949e">certs     →</tspan> <tspan fill="#ffbd2e">'AI-102 · DP-100 · DP-600 · OCI · Postman'</tspan></text>
+        <text y="180"><tspan fill="#8b949e">wins      →</tspan> <tspan fill="#27c93f">'🏆 1st Zero to One (600+ teams)'</tspan></text>
+        <text y="210"><tspan fill="#8b949e">status    →</tspan> <tspan fill="#27c93f">'✓ Open to Work'</tspan></text>
+        
+        <!-- Prompt & Cursor -->
+        <g transform="translate(0, 240)">
+          <text fill="#00D4FF">❯</text>
+          <rect x="15" y="-12" width="10" height="15" fill="#e6edf3">
+            <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+          </rect>
+        </g>
+      </g>
+    </g>
   </g>
 </svg>
