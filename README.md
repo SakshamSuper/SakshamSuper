@@ -19,12 +19,12 @@
 
 <br/>
 
-<!-- Side-by-Side HD Terminal Poster & Info Console (Fast Snappy Reveal Animation) -->
+<!-- Side-by-Side HD Terminal Poster & Info Console (Smooth Cinematic 1.1s Reveal Animation) -->
 <p align="center">
 <table align="center" border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td valign="top" align="center" style="padding-right: 15px;">
-      <img src="./saksham-hd-v3.svg" width="368" height="465" alt="Saksham Aggarwal — HD Terminal Artwork" />
+      <img src="./saksham-hd-v4.svg" width="368" height="465" alt="Saksham Aggarwal — HD Terminal Artwork" />
     </td>
     <td valign="top" align="center">
       <img src="./whoami.svg" width="367" height="465" alt="Saksham Aggarwal — Terminal Info" />
