@@ -11,7 +11,7 @@
 <circle cx="20" cy="15.0" r="5" fill="#ff5f56"/>
 <circle cx="36" cy="15.0" r="5" fill="#ffbd2e"/>
 <circle cx="52" cy="15.0" r="5" fill="#27c93f"/>
-<text x="420.0" y="19.0" fill="#7d8590" font-size="12" text-anchor="middle">saksham@github: ~$ ./portrait_vivid_color.sh</text>
+<text x="420.0" y="19.0" fill="#7d8590" font-size="12" text-anchor="middle">saksham@github: ~$ ./portrait_color.sh</text>
   <clipPath id="r0">
     <rect x="20" y="37.0" height="15" width="0">
       <animate attributeName="width" from="0" to="800" begin="0.000s" dur="0.08s" fill="freeze"/>
