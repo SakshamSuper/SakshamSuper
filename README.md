@@ -3,14 +3,12 @@
   <img src="./banner-v6.svg" width="100%" alt="SAKSHAM — AI Engineer &amp; Data Scientist"/>
 </p>
 
-<!-- Minimal Typing SVG -->
+<!-- Minimal Typing SVG (Tight Compact Spacing) -->
 <p align="center">
   <a href="https://github.com/SakshamSuper">
-    <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=20&duration=3000&pause=800&color=0ea5e9&background=00000000&center=true&vCenter=true&width=600&height=45&lines=Building+Production-Grade+AI+Systems;Computer+Vision+%C2%B7+LLM+Agents+%C2%B7+ML+Forecasting;1st+Place+%E2%80%94+Zero+to+One+Hackathon;Azure+Certified+AI+Engineer" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=19&duration=3000&pause=800&color=0ea5e9&background=00000000&center=true&vCenter=true&width=600&height=28&lines=Building+Production-Grade+AI+Systems;Computer+Vision+%C2%B7+LLM+Agents+%C2%B7+ML+Forecasting;1st+Place+%E2%80%94+Zero+to+One+Hackathon;Azure+Certified+AI+Engineer" alt="Typing SVG" />
   </a>
 </p>
-
-<br/>
 
 <!-- Side-by-Side HD Terminal Poster & Enlarged Info Console -->
 <p align="center">
@@ -25,8 +23,6 @@
   </tr>
 </table>
 </p>
-
-<br/>
 
 ---
 
