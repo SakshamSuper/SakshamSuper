@@ -19,7 +19,7 @@
 
 <br/>
 
-<!-- Side-by-Side HD Terminal Poster & Info Console -->
+<!-- Side-by-Side HD Terminal Poster & Enlarged Info Console -->
 <p align="center">
 <table align="center" border="0" cellpadding="0" cellspacing="0">
   <tr>
@@ -27,7 +27,7 @@
       <img src="./saksham-hd-v6.svg" width="363" height="490" alt="Saksham Aggarwal — HD Terminal Artwork" />
     </td>
     <td valign="top" align="center">
-      <img src="./whoami.svg" width="363" height="490" alt="Saksham Aggarwal — Terminal Info" />
+      <img src="./whoami-v2.svg" width="363" height="490" alt="Saksham Aggarwal — Terminal Info" />
     </td>
   </tr>
 </table>

@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 608" width="450" height="608">
+  <style>
+    .cursor {
+      animation: blink 1s infinite;
+      fill: #00D4FF;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+  </style>
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c10"/>
+      <stop offset="50%" stop-color="#070a12"/>
+      <stop offset="100%" stop-color="#050608"/>
+    </linearGradient>
+
+    <!-- Header Gradient -->
+    <linearGradient id="header-bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f111a"/>
+      <stop offset="100%" stop-color="#07080c"/>
+    </linearGradient>
+
+    <!-- Border Glow -->
+    <linearGradient id="border-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(0, 212, 255, 0.35)" />
+      <stop offset="100%" stop-color="rgba(139, 92, 246, 0.2)" />
+    </linearGradient>
+
+    <!-- Card Pill Gradient -->
+    <linearGradient id="pill-bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0e1726"/>
+      <stop offset="100%" stop-color="#080e18"/>
+    </linearGradient>
+
+    <clipPath id="window-clip"><rect width="450" height="608" rx="10" ry="10"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#window-clip)">
+    <!-- Terminal Body -->
+    <rect width="450" height="608" fill="url(#bg)"/>
+    <rect x="0.5" y="0.5" width="449" height="607" fill="none" stroke="url(#border-glow)" stroke-width="1.2" rx="10" ry="10" />
+
+    <!-- Title Bar -->
+    <rect width="450" height="34" fill="url(#header-bg)"/>
+    <line x1="0" y1="34" x2="450" y2="34" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1"/>
+
+    <!-- macOS Traffic Buttons -->
+    <circle cx="16" cy="17" r="4.5" fill="#ff5f56"/>
+    <circle cx="30" cy="17" r="4.5" fill="#ffbd2e"/>
+    <circle cx="44" cy="17" r="4.5" fill="#27c93f"/>
+    <text x="225" y="21" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="600" fill="#8892A4">console // whoami --verbose</text>
+
+    <!-- Terminal Content Area -->
+    <g transform="translate(20, 56)" font-family="'JetBrains Mono', monospace" fill="#E2E8F0">
+      
+      <!-- Section 1: whoami -->
+      <text x="0" y="0" font-size="14" font-weight="bold"><tspan fill="#00D4FF">❯ </tspan>whoami --verbose</text>
+      <g transform="translate(14, 20)" font-size="13" fill="#94A3B8">
+        <text x="0" y="0">Name  : <tspan fill="#F8FAFC" font-weight="bold" font-size="14.5">Saksham Aggarwal</tspan></text>
+        <text x="0" y="20">Role  : <tspan fill="#00D4FF" font-weight="bold">AI Engineer &amp; Data Scientist</tspan></text>
+        <text x="0" y="40">Focus : <tspan fill="#F8FAFC">CV · LLMs · ML Forecasting</tspan></text>
+        <text x="0" y="60">Uni   : <tspan fill="#F8FAFC">GGSIPU (Guru Gobind Singh Univ)</tspan></text>
+        <text x="0" y="80">Loc   : <tspan fill="#F8FAFC">New Delhi, India</tspan></text>
+      </g>
+
+      <!-- Section 2: Certifications Grid -->
+      <text x="0" y="128" font-size="14" font-weight="bold"><tspan fill="#00D4FF">❯ </tspan>cat certifications.json</text>
+      <g transform="translate(10, 140)">
+        <!-- Cert 1 -->
+        <rect x="0" y="0" width="198" height="26" rx="5" fill="url(#pill-bg)" stroke="rgba(0, 212, 255, 0.35)" stroke-width="1"/>
+        <text x="10" y="17" font-size="11" font-weight="bold" fill="#00D4FF">☁️ Azure AI Engineer</text>
+        
+        <!-- Cert 2 -->
+        <rect x="206" y="0" width="198" height="26" rx="5" fill="url(#pill-bg)" stroke="rgba(0, 212, 255, 0.35)" stroke-width="1"/>
+        <text x="216" y="17" font-size="11" font-weight="bold" fill="#00D4FF">📊 Azure Data Scientist</text>
+
+        <!-- Cert 3 -->
+        <rect x="0" y="32" width="198" height="26" rx="5" fill="url(#pill-bg)" stroke="rgba(0, 212, 255, 0.35)" stroke-width="1"/>
+        <text x="10" y="49" font-size="11" font-weight="bold" fill="#38bdf8">⚡ Fabric Analytics</text>
+
+        <!-- Cert 4 -->
+        <rect x="206" y="32" width="198" height="26" rx="5" fill="url(#pill-bg)" stroke="rgba(0, 212, 255, 0.35)" stroke-width="1"/>
+        <text x="216" y="49" font-size="11" font-weight="bold" fill="#38bdf8">🔮 Oracle OCI Associate</text>
+
+        <!-- Cert 5 -->
+        <rect x="0" y="64" width="404" height="26" rx="5" fill="url(#pill-bg)" stroke="rgba(139, 92, 246, 0.45)" stroke-width="1"/>
+        <text x="10" y="81" font-size="11" font-weight="bold" fill="#8b5cf6">🚀 Postman API Specialist (Student Expert)</text>
+      </g>
+
+      <!-- Section 3: Hackathons -->
+      <text x="0" y="258" font-size="14" font-weight="bold"><tspan fill="#00D4FF">❯ </tspan>cat hackathons.log</text>
+      <g transform="translate(10, 270)">
+        <!-- Win 1: Zero to One -->
+        <rect x="0" y="0" width="404" height="38" rx="6" fill="#131006" stroke="rgba(251, 191, 36, 0.5)" stroke-width="1"/>
+        <text x="12" y="17" font-size="11.5" fill="#fbbf24" font-weight="bold">🏆 1st Place : Zero to One Hackathon (CU)</text>
+        <text x="32" y="31" font-size="10" fill="#94A3B8">// Outperformed 600+ teams in open innovation</text>
+
+        <!-- Win 2: HackLLM -->
+        <rect x="0" y="44" width="404" height="38" rx="6" fill="#0b1018" stroke="rgba(148, 163, 184, 0.35)" stroke-width="1"/>
+        <text x="12" y="61" font-size="11.5" fill="#F8FAFC" font-weight="bold">🥈 Runner-Up : HackLLM (IIIT Delhi)</text>
+        <text x="32" y="75" font-size="10" fill="#94A3B8">// Built production autonomous agent workflow</text>
+      </g>
+
+      <!-- Section 4: Status Pill -->
+      <text x="0" y="380" font-size="14" font-weight="bold"><tspan fill="#00D4FF">❯ </tspan>echo $STATUS</text>
+      <g transform="translate(10, 392)">
+        <rect x="0" y="0" width="404" height="30" rx="15" fill="#041b14" stroke="#10b981" stroke-width="1.2"/>
+        <circle cx="18" cy="15" r="4.5" fill="#10b981">
+          <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+        </circle>
+        <text x="32" y="19" font-size="12" fill="#10b981" font-weight="bold">AVAILABILITY: OPEN TO WORK &amp; COLLABORATE ✓</text>
+      </g>
+
+      <!-- Section 5: Telemetry Footer -->
+      <g transform="translate(0, 452)" fill="#64748B" font-size="9.5">
+        <line x1="0" y1="0" x2="410" y2="0" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+        <text x="0" y="15">MEM: 16GB // CPU: 8 CORES // LATENCY: 12ms // BUILD: PASSED</text>
+      </g>
+
+      <!-- Active Blinking Prompt Cursor -->
+      <g transform="translate(0, 500)">
+        <text font-size="14" font-weight="bold" fill="#00D4FF" y="0">❯</text>
+        <rect class="cursor" x="18" y="-13" width="9" height="16" rx="1"/>
+      </g>
+
+    </g>
+
+    <!-- Top Right Pulse Status Indicator -->
+    <circle cx="425" cy="17" r="3.5" fill="#10b981">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
