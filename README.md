@@ -1,6 +1,6 @@
-<!-- Sleek Techy Display Banner with High-Glow Verified Certification Badges -->
+<!-- Sleek Techy Compact Display Banner with High-Glow Verified Certification Badges -->
 <p align="center">
-  <img src="./banner-v5.svg" width="100%" alt="SAKSHAM — AI Engineer &amp; Data Scientist"/>
+  <img src="./banner-v6.svg" width="100%" alt="SAKSHAM — AI Engineer &amp; Data Scientist"/>
 </p>
 
 <!-- Minimal Typing SVG -->
