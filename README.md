@@ -19,7 +19,7 @@
 
 <br/>
 
-<!-- Side-by-Side HD Terminal Poster & Info Console (Seamless Single Layer Image — Zero Seam Lines) -->
+<!-- Side-by-Side HD Terminal Poster & Info Console -->
 <p align="center">
 <table align="center" border="0" cellpadding="0" cellspacing="0">
   <tr>
@@ -34,6 +34,14 @@
 </p>
 
 <br/>
+
+---
+
+### 📈 &nbsp;`$ saksham@github ~ $ ./contributions.sh`
+
+<p align="center">
+  <img src="./contrib-heatmap.svg" width="95%" alt="Saksham's GitHub Contribution Heatmap" />
+</p>
 
 ---
 
