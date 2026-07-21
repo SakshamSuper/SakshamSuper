@@ -48,7 +48,7 @@
 ### 🚀 &nbsp;`$ ls ~/projects --featured`
 
 <p align="center">
-  <img src="./projects.svg" width="90%" alt="Projects Console"/>
+  <img src="./projects-v2.svg" width="95%" alt="Interactive Featured Projects Console (Clickable Links)" />
 </p>
 
 ---

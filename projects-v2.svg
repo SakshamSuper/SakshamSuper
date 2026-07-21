@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 280" width="800" height="280">
+  <style>
+    .project-row { cursor: pointer; transition: all 0.2s ease; }
+    .project-row:hover .row-bg { fill: rgba(0, 212, 255, 0.12); stroke: rgba(0, 212, 255, 0.5); }
+    .project-row:hover .repo-name { fill: #00D4FF; text-decoration: underline; }
+    .project-row:hover .folder-icon { fill: #00D4FF; }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c10"/>
+      <stop offset="100%" stop-color="#050608"/>
+    </linearGradient>
+    <linearGradient id="header-bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f111a"/>
+      <stop offset="100%" stop-color="#07080c"/>
+    </linearGradient>
+    <linearGradient id="border-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(0, 212, 255, 0.35)"/>
+      <stop offset="100%" stop-color="rgba(139, 92, 246, 0.2)"/>
+    </linearGradient>
+    <clipPath id="window-clip"><rect width="800" height="280" rx="10" ry="10"/></clipPath>
+  </defs>
+  <g clip-path="url(#window-clip)">
+    <!-- Terminal Window -->
+    <rect width="800" height="280" fill="url(#bg)"/>
+    <rect x="0.5" y="0.5" width="799" height="279" fill="none" stroke="url(#border-glow)" stroke-width="1.2" rx="10" ry="10"/>
+    <!-- Title Bar -->
+    <rect width="800" height="34" fill="url(#header-bg)"/>
+    <line x1="0" y1="34" x2="800" y2="34" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1"/>
+    <circle cx="18" cy="17" r="4.5" fill="#ff5f56"/>
+    <circle cx="32" cy="17" r="4.5" fill="#ffbd2e"/>
+    <circle cx="46" cy="17" r="4.5" fill="#27c93f"/>
+    <text x="400" y="21" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11.5" fill="#8892A4">console // projects --click-to-open</text>
+    <!-- Terminal Prompt Header -->
+    <g transform="translate(25, 58)" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="bold" fill="#E2E8F0">
+      <text x="0" y="0"><tspan fill="#00D4FF">❯ </tspan>ls ~/projects --featured <tspan fill="#64748B" font-size="10.5" font-weight="normal">(Click any project to open repository 🔗)</tspan></text>
+    </g>
+    <g transform="translate(25, 80)">
+      <!-- Project 1: POSTURE-ANALYSIS-SYSTEM -->
+      <a href="https://github.com/SakshamSuper/POSTURE-ANALYSIS-SYSTEM" target="_blank" class="project-row">
+        <rect class="row-bg" x="0" y="0" width="750" height="36" rx="6" fill="#09101c" fill-opacity="0.6" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+        <g transform="translate(12, 8)">
+          <path class="folder-icon" d="M2 4C2 2.89543 2.89543 2 4 2H8.58579C9.11622 2 9.62493 2.21071 10 2.58579L11.4142 4H18C19.1046 4 20 4.89543 20 6V14C20 15.1046 19.1046 16 18 16H4C2.89543 16 2 15.1046 2 14V4Z" fill="#10b981"/>
+        </g>
+        <text class="repo-name" x="42" y="23" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="bold" fill="#10b981">POSTURE-ANALYSIS-SYSTEM</text>
+        <text x="310" y="23" font-family="'JetBrains Mono', monospace" font-size="11.5" fill="#94A3B8">// Real-time CV posture angles pipeline</text>
+        <text x="725" y="23" font-family="'JetBrains Mono', monospace" font-size="12" fill="#00D4FF">↗</text>
+      </a>
+      <!-- Project 2: AI-physio-analysis -->
+      <a href="https://github.com/SakshamSuper/AI-physio-analysis" target="_blank" class="project-row">
+        <rect class="row-bg" x="0" y="42" width="750" height="36" rx="6" fill="#09101c" fill-opacity="0.6" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+        <g transform="translate(12, 50)">
+          <path class="folder-icon" d="M2 4C2 2.89543 2.89543 2 4 2H8.58579C9.11622 2 9.62493 2.21071 10 2.58579L11.4142 4H18C19.1046 4 20 4.89543 20 6V14C20 15.1046 19.1046 16 18 16H4C2.89543 16 2 15.1046 2 14V4Z" fill="#10b981"/>
+        </g>
+        <text class="repo-name" x="42" y="65" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="bold" fill="#10b981">AI-physio-analysis</text>
+        <text x="310" y="65" font-family="'JetBrains Mono', monospace" font-size="11.5" fill="#94A3B8">// Computer vision action classifier model</text>
+        <text x="725" y="65" font-family="'JetBrains Mono', monospace" font-size="12" fill="#00D4FF">↗</text>
+      </a>
+      <!-- Project 3: CRYPTO_PRICE_ANALYSIS -->
+      <a href="https://github.com/SakshamSuper/CRYPTO_PRICE_ANALYSIS" target="_blank" class="project-row">
+        <rect class="row-bg" x="0" y="84" width="750" height="36" rx="6" fill="#09101c" fill-opacity="0.6" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+        <g transform="translate(12, 92)">
+          <path class="folder-icon" d="M2 4C2 2.89543 2.89543 2 4 2H8.58579C9.11622 2 9.62493 2.21071 10 2.58579L11.4142 4H18C19.1046 4 20 4.89543 20 6V14C20 15.1046 19.1046 16 18 16H4C2.89543 16 2 15.1046 2 14V4Z" fill="#10b981"/>
+        </g>
+        <text class="repo-name" x="42" y="107" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="bold" fill="#10b981">CRYPTO_PRICE_ANALYSIS</text>
+        <text x="310" y="107" font-family="'JetBrains Mono', monospace" font-size="11.5" fill="#94A3B8">// Time-series forecasting predictive ML</text>
+        <text x="725" y="107" font-family="'JetBrains Mono', monospace" font-size="12" fill="#00D4FF">↗</text>
+      </a>
+      <!-- Project 4: portfolio -->
+      <a href="https://github.com/SakshamSuper/portfolio" target="_blank" class="project-row">
+        <rect class="row-bg" x="0" y="126" width="750" height="36" rx="6" fill="#09101c" fill-opacity="0.6" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+        <g transform="translate(12, 134)">
+          <path class="folder-icon" d="M2 4C2 2.89543 2.89543 2 4 2H8.58579C9.11622 2 9.62493 2.21071 10 2.58579L11.4142 4H18C19.1046 4 20 4.89543 20 6V14C20 15.1046 19.1046 16 18 16H4C2.89543 16 2 15.1046 2 14V4Z" fill="#10b981"/>
+        </g>
+        <text class="repo-name" x="42" y="149" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="bold" fill="#10b981">portfolio</text>
+        <text x="310" y="149" font-family="'JetBrains Mono', monospace" font-size="11.5" fill="#94A3B8">// Premium dark themed editorial UI/UX website</text>
+        <text x="725" y="149" font-family="'JetBrains Mono', monospace" font-size="12" fill="#00D4FF">↗</text>
+      </a>
+    </g>
+    <g transform="translate(25, 262)" font-family="'JetBrains Mono', monospace" font-size="10" fill="#64748B">
+      <text x="0" y="0">● main branch</text>
+      <text x="750" y="0" text-anchor="end">4 featured repositories // click row to navigate</text>
+    </g>
+  </g>
+</svg>
