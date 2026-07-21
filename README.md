@@ -1,6 +1,6 @@
-<!-- Sleek Techy Display Banner with Embedded Verified Certification Badges -->
+<!-- Sleek Techy Display Banner with High-Glow Verified Certification Badges -->
 <p align="center">
-  <img src="./banner-v4.svg" width="100%" alt="SAKSHAM — AI Engineer &amp; Data Scientist"/>
+  <img src="./banner-v5.svg" width="100%" alt="SAKSHAM — AI Engineer &amp; Data Scientist"/>
 </p>
 
 <!-- Minimal Typing SVG -->
@@ -68,7 +68,7 @@
 <p align="center">
   <img height="150" src="https://github-readme-stats-sigma-five.vercel.app/api?username=SakshamSuper&show_icons=true&theme=tokyonight&hide_border=true&bg_color=020817&title_color=0ea5e9&icon_color=0ea5e9&text_color=A8B2C0&ring_color=0ea5e9&count_private=true" />
   &nbsp;&nbsp;
-  <img height="150" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=SakshamSuper&layout=compact&theme=tokyonight&hide_border=true&bg_color=020817&text_color=A8B2C0" />
+  <img height="150" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=SakshamSuper&layout=compact&theme=tokyonight&hide_border=true&bg_color=020817&title_color=0ea5e9&text_color=A8B2C0" />
 </p>
 
 <p align="center">
