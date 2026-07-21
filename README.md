@@ -40,7 +40,7 @@
 ### 📈 &nbsp;`$ saksham@github ~ $ ./contributions.sh`
 
 <p align="center">
-  <img src="./contrib-heatmap.svg" width="95%" alt="Saksham's GitHub Contribution Heatmap" />
+  <img src="./contrib-heatmap-v2.svg" width="95%" alt="Saksham's GitHub Contribution Heatmap" />
 </p>
 
 ---
