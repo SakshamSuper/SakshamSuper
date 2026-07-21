@@ -19,12 +19,12 @@
 
 <br/>
 
-<!-- Side-by-Side HD Terminal Poster & Info Console (58 Typewriter Line Reveals @ 0.08s Speed, Un-stretched Exact 0.75 Ratio) -->
+<!-- Side-by-Side HD Terminal Poster & Info Console (Seamless Single Layer Image — Zero Seam Lines) -->
 <p align="center">
 <table align="center" border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td valign="top" align="center" style="padding-right: 15px;">
-      <img src="./saksham-hd-v5.svg" width="363" height="490" alt="Saksham Aggarwal — HD Terminal Artwork" />
+      <img src="./saksham-hd-v6.svg" width="363" height="490" alt="Saksham Aggarwal — HD Terminal Artwork" />
     </td>
     <td valign="top" align="center">
       <img src="./whoami.svg" width="363" height="490" alt="Saksham Aggarwal — Terminal Info" />
