@@ -10,13 +10,6 @@
   </a>
 </p>
 
-<!-- Profile Views & Followers badges -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=SakshamSuper&style=flat-square&color=0ea5e9&labelColor=020817&label=VIEWS" />
-  &nbsp;
-  <img src="https://img.shields.io/github/followers/SakshamSuper?style=flat-square&color=0ea5e9&labelColor=020817&label=FOLLOWERS" />
-</p>
-
 <br/>
 
 <!-- Side-by-Side HD Terminal Poster & Enlarged Info Console -->
