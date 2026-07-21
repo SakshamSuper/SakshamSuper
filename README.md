@@ -1,6 +1,6 @@
-<!-- Sleek Display Banner -->
+<!-- Sleek Display Banner with Embedded Verified Certification Badges -->
 <p align="center">
-  <img src="./banner.svg" width="100%" alt="SAKSHAM — AI Engineer &amp; Data Scientist"/>
+  <img src="./banner-v2.svg" width="100%" alt="SAKSHAM — AI Engineer &amp; Data Scientist"/>
 </p>
 
 <!-- Minimal Typing SVG -->
