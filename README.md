@@ -19,21 +19,21 @@
 
 <br/>
 
----
-
-### 💻 &nbsp;`$ whoami --verbose`
-
+<!-- Side-by-Side ASCII Portrait & Info Console (Exactly like AVIVASHISHTA29) -->
 <p align="center">
-  <img src="./whoami.svg" width="90%" alt="Console info"/>
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td valign="top" align="center" style="padding-right: 15px;">
+      <img src="./saksham-ascii.svg" width="370" alt="Saksham Aggarwal — ASCII Portrait" />
+    </td>
+    <td valign="top" align="center">
+      <img src="./whoami.svg" width="440" alt="Saksham Aggarwal — Terminal Info" />
+    </td>
+  </tr>
+</table>
 </p>
 
----
-
-### 🏆 &nbsp;`$ ./display-achievements --trophies`
-
-<p align="center">
-  <img src="./achievements.svg" width="90%" alt="Achievements Console"/>
-</p>
+<br/>
 
 ---
 
