@@ -19,15 +19,15 @@
 
 <br/>
 
-<!-- Side-by-Side ASCII Portrait & Info Console (Exactly like AVIVASHISHTA29) -->
+<!-- Side-by-Side ASCII Portrait & Info Console (Exactly like AVIVASHISHTA29, perfectly aligned) -->
 <p align="center">
 <table align="center" border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td valign="top" align="center" style="padding-right: 15px;">
-      <img src="./saksham-ascii.svg" width="370" alt="Saksham Aggarwal — ASCII Portrait" />
+      <img src="./saksham-ascii.svg" width="370" height="420" alt="Saksham Aggarwal — ASCII Portrait" />
     </td>
     <td valign="top" align="center">
-      <img src="./whoami.svg" width="440" alt="Saksham Aggarwal — Terminal Info" />
+      <img src="./whoami.svg" width="378" height="420" alt="Saksham Aggarwal — Terminal Info" />
     </td>
   </tr>
 </table>
