@@ -19,15 +19,15 @@
 
 <br/>
 
-<!-- Side-by-Side Full-Color Pixel Artwork & Info Console (Cache-bypassing new filename) -->
+<!-- Side-by-Side HD Terminal Poster & Info Console (Crisp, High-Resolution, Perfectly Aligned) -->
 <p align="center">
 <table align="center" border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td valign="top" align="center" style="padding-right: 15px;">
-      <img src="./saksham-color.svg" width="370" height="420" alt="Saksham Aggarwal — Color Pixel Artwork" />
+      <img src="./saksham-hd.svg" width="368" height="465" alt="Saksham Aggarwal — HD Terminal Artwork" />
     </td>
     <td valign="top" align="center">
-      <img src="./whoami.svg" width="378" height="420" alt="Saksham Aggarwal — Terminal Info" />
+      <img src="./whoami.svg" width="367" height="465" alt="Saksham Aggarwal — Terminal Info" />
     </td>
   </tr>
 </table>
