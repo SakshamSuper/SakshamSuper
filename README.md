@@ -33,11 +33,15 @@
 ### 📈 &nbsp;`$ saksham@github ~ $ ./contributions.sh`
 
 <p align="center">
-  <img src="./contrib-heatmap-v4.svg" width="95%" alt="Saksham's Enhanced Past GitHub Contribution Heatmap" />
+  <img src="./contrib-heatmap-v4.svg" width="95%" alt="Saksham's GitHub Contribution Heatmap" />
 </p>
 
+---
+
+### 🐍 &nbsp;`$ watch contribution-snake --cyber-mode`
+
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SakshamSuper&bg_color=020817&color=0ea5e9&line=0ea5e9&point=ffffff&area=true&area_color=0ea5e920&hide_border=true&radius=8" width="95%" alt="Saksham's Live Real-Time GitHub Activity Graph" />
+  <img src="./contrib-snake.svg" width="95%" alt="Saksham's Cyber Contribution Snake Animation" />
 </p>
 
 ---
@@ -63,9 +67,9 @@
 ### 📊 &nbsp;`$ git stats --analytics`
 
 <p align="center">
-  <img height="150" src="https://github-readme-stats-sigma-five.vercel.app/api?username=SakshamSuper&show_icons=true&theme=tokyonight&hide_border=true&bg_color=020817&title_color=0ea5e9&icon_color=0ea5e9&text_color=A8B2C0&ring_color=0ea5e9&count_private=true" />
+  <img height="155" src="https://github-readme-stats-sigma-five.vercel.app/api?username=SakshamSuper&show_icons=true&theme=tokyonight&hide_border=true&bg_color=020817&title_color=0ea5e9&icon_color=0ea5e9&text_color=A8B2C0&ring_color=0ea5e9&count_private=true" />
   &nbsp;&nbsp;
-  <img height="150" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=SakshamSuper&layout=compact&theme=tokyonight&hide_border=true&bg_color=020817&title_color=0ea5e9&text_color=A8B2C0" />
+  <img height="155" src="https://github-readme-streak-stats.herokuapp.com/?user=SakshamSuper&theme=tokyonight&background=020817&border=0ea5e9&stroke=0ea5e9&ring=0ea5e9&fire=0ea5e9&currStreakNum=0ea5e9" />
 </p>
 
 ---
