@@ -38,10 +38,10 @@
 
 ---
 
-### 🐍 &nbsp;`$ watch contribution-snake --cyber-mode`
+### 🏆 &nbsp;`$ cat achievements.log --visualize`
 
 <p align="center">
-  <img src="./contrib-snake.svg" width="95%" alt="Saksham's Cyber Contribution Snake Animation" />
+  <img src="./achievements.svg" width="95%" alt="Saksham's Achievements &amp; Competitions Dashboard" />
 </p>
 
 ---
