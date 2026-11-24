@@ -85,9 +85,8 @@
 ### 📊 &nbsp;`$ git stats --analytics`
 
 <p align="center">
-  <img height="165" src="https://streak-stats.demolab.com?user=SakshamSuper&theme=dark&background=070b15&border=0ea5e930&stroke=0ea5e930&ring=0ea5e9&fire=f59e0b&currStreakNum=0ea5e9&sideLabels=94A3B8&dates=94A3B8&currStreakLabel=0ea5e9&sideNums=F8FAFC" alt="Commit Streak"/>
-  &nbsp;
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SakshamSuper&layout=compact&theme=tokyonight&hide_border=true&bg_color=070b15&title_color=0ea5e9&text_color=94A3B8&langs_count=8" alt="Top Languages"/>
+  <img width="48%" src="https://streak-stats.demolab.com?user=SakshamSuper&theme=dark&background=070b15&border=0ea5e930&stroke=0ea5e930&ring=0ea5e9&fire=f59e0b&currStreakNum=0ea5e9&sideLabels=94A3B8&dates=94A3B8&currStreakLabel=0ea5e9&sideNums=F8FAFC" alt="Commit Streak"/>
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SakshamSuper&layout=compact&theme=tokyonight&hide_border=true&bg_color=070b15&title_color=0ea5e9&text_color=94A3B8&langs_count=8" alt="Top Languages"/>
 </p>
 
 ---
