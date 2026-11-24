@@ -64,19 +64,13 @@
 ### ⚡ &nbsp;`$ cat tech-stack.md`
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,opencv,sklearn,azure,fastapi,mysql,postman,git,vscode,jupyter&perline=12" alt="Tech Stack Icons"/>
-  </a>
+  <img src="./skills.svg" width="95%" alt="Core Skills & Tech Stack"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-Expert-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=020817"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Computer_Vision-OpenCV%20%7C%20YOLO%20%7C%20MediaPipe-10b981?style=flat-square&labelColor=020817"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/LLM_Agents-LangChain%20%7C%20RAG%20%7C%20Tools-00D4FF?style=flat-square&labelColor=020817"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/ML-Forecasting%20%7C%20LSTM%20%7C%20XGBoost-f59e0b?style=flat-square&labelColor=020817"/>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,opencv,sklearn,azure,fastapi,mysql,postman,git,vscode,jupyter&perline=12" alt="Tech Stack Icons"/>
+  </a>
 </p>
 
 ---
@@ -114,6 +108,13 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=SakshamSuper&style=flat-square&color=0ea5e9&label=Profile+Views" alt="Profile Views"/>
+</p>
+
+---
+
+<!-- ▌ FOOTER STATUS BAR ─────────────────────────────────────── -->
+<p align="center">
+  <img src="./footer.svg" width="95%" alt="Status — Open to Work · Currently Learning · Agentic AI"/>
 </p>
 
 <br/>

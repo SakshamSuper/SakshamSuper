@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="68" viewBox="0 0 920 68" font-family="-apple-system,BlinkMacSystemFont,'JetBrains Mono','Segoe UI',sans-serif">
+  <defs>
+    <linearGradient id="f-bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#070b15"/>
+      <stop offset="50%" stop-color="#0a1020"/>
+      <stop offset="100%" stop-color="#070b15"/>
+    </linearGradient>
+    <linearGradient id="f-bdr" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(0,212,255,0.0)"/>
+      <stop offset="30%" stop-color="rgba(0,212,255,0.4)"/>
+      <stop offset="70%" stop-color="rgba(139,92,246,0.4)"/>
+      <stop offset="100%" stop-color="rgba(16,185,129,0.0)"/>
+    </linearGradient>
+    <linearGradient id="scan-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(0,212,255,0)"/>
+      <stop offset="50%" stop-color="rgba(0,212,255,0.6)"/>
+      <stop offset="100%" stop-color="rgba(0,212,255,0)"/>
+    </linearGradient>
+    <clipPath id="f-clip"><rect width="920" height="68" rx="10"/></clipPath>
+  </defs>
+  <style>
+    .scan { animation: scan 3.5s ease-in-out infinite; }
+    @keyframes scan { 0%,100%{transform:translateX(-920px);} 60%,65%{transform:translateX(920px);} }
+    .dot1 { animation: d 2s 0s ease-in-out infinite; }
+    .dot2 { animation: d 2s 0.4s ease-in-out infinite; }
+    .dot3 { animation: d 2s 0.8s ease-in-out infinite; }
+    @keyframes d { 0%,100%{opacity:0.3;} 50%{opacity:1;} }
+    .cur { animation: cur 1.1s ease-in-out infinite; }
+    @keyframes cur { 0%,100%{opacity:1;} 50%{opacity:0;} }
+  </style>
+
+  <g clip-path="url(#f-clip)">
+    <rect width="920" height="68" fill="url(#f-bg)"/>
+    <!-- top glow border -->
+    <rect x="0" y="0" width="920" height="1.5" fill="url(#f-bdr)"/>
+    <!-- scanning light effect -->
+    <rect class="scan" y="0" width="300" height="68" fill="url(#scan-line)" opacity="0.15"/>
+
+    <!-- Left: status -->
+    <circle class="dot1" cx="30" cy="34" r="5" fill="#10b981"/>
+    <text x="45" y="29" font-family="'JetBrains Mono',monospace" font-size="11.5" font-weight="700" fill="#10b981">OPEN TO WORK</text>
+    <text x="45" y="47" font-family="'JetBrains Mono',monospace" font-size="10" fill="#475569">AI Engineer · Data Scientist · ML Roles</text>
+
+    <!-- Center: currently learning -->
+    <text x="460" y="26" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="10" fill="#475569">CURRENTLY LEARNING</text>
+    <text x="460" y="46" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="12" font-weight="700" fill="#00D4FF">Agentic AI · Multimodal LLMs · Quant Finance</text>
+
+    <!-- Right: prompt cursor -->
+    <text x="850" y="29" text-anchor="end" font-family="'JetBrains Mono',monospace" font-size="10.5" fill="#475569">saksham@github ~ $</text>
+    <text x="855" y="29" font-family="'JetBrains Mono',monospace" font-size="13" font-weight="700" fill="#00D4FF">❯</text>
+    <rect class="cur" x="870" y="17" width="8" height="15" rx="1" fill="#00D4FF"/>
+
+    <!-- fun dots bottom right -->
+    <circle class="dot1" cx="890" cy="58" r="3" fill="#00D4FF"/>
+    <circle class="dot2" cx="902" cy="58" r="3" fill="#8b5cf6"/>
+    <circle class="dot3" cx="914" cy="58" r="3" fill="#10b981"/>
+  </g>
+</svg>

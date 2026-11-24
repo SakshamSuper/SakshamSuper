@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="130" viewBox="0 0 920 130" font-family="-apple-system,BlinkMacSystemFont,'JetBrains Mono','Segoe UI',sans-serif">
+  <defs>
+    <linearGradient id="sk-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#070b15"/>
+      <stop offset="100%" stop-color="#030509"/>
+    </linearGradient>
+    <linearGradient id="sk-hdr" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#070b14"/>
+    </linearGradient>
+    <linearGradient id="sk-bdr" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(0,212,255,0.4)"/>
+      <stop offset="100%" stop-color="rgba(139,92,246,0.25)"/>
+    </linearGradient>
+    <clipPath id="sk-clip"><rect width="920" height="130" rx="10"/></clipPath>
+  </defs>
+  <style>
+    .chip { transition: all 0.2s; }
+  </style>
+
+  <g clip-path="url(#sk-clip)">
+    <rect width="920" height="130" fill="url(#sk-bg)"/>
+    <rect x="0.5" y="0.5" width="919" height="129" fill="none" stroke="url(#sk-bdr)" stroke-width="1.5" rx="10"/>
+    <!-- Title Bar -->
+    <rect width="920" height="34" fill="url(#sk-hdr)"/>
+    <line x1="0" y1="34" x2="920" y2="34" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <circle cx="22" cy="17" r="5" fill="#ff5f56"/>
+    <circle cx="38" cy="17" r="5" fill="#ffbd2e"/>
+    <circle cx="54" cy="17" r="5" fill="#27c93f"/>
+    <text x="460" y="23" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#8892A4">console // tech-stack --core-skills</text>
+
+    <!-- Row 1: AI / ML -->
+    <text x="28" y="57" font-family="'JetBrains Mono',monospace" font-size="10" fill="#475569" letter-spacing="1">AI / ML</text>
+
+    <!-- Python -->
+    <rect x="90" y="44" width="82" height="22" rx="11" fill="#1e2a1a" stroke="rgba(59,130,246,0.5)" stroke-width="1"/>
+    <text x="131" y="59" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="#60a5fa">🐍 Python</text>
+
+    <!-- TensorFlow -->
+    <rect x="178" y="44" width="96" height="22" rx="11" fill="#1e1a0a" stroke="rgba(251,146,60,0.5)" stroke-width="1"/>
+    <text x="226" y="59" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="#fb923c">🔥 TensorFlow</text>
+
+    <!-- PyTorch -->
+    <rect x="280" y="44" width="82" height="22" rx="11" fill="#1e1a0a" stroke="rgba(239,68,68,0.5)" stroke-width="1"/>
+    <text x="321" y="59" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="#f87171">⚡ PyTorch</text>
+
+    <!-- Scikit -->
+    <rect x="368" y="44" width="88" height="22" rx="11" fill="#0a1818" stroke="rgba(20,184,166,0.5)" stroke-width="1"/>
+    <text x="412" y="59" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="#2dd4bf">🤖 Sklearn</text>
+
+    <!-- LangChain -->
+    <rect x="462" y="44" width="96" height="22" rx="11" fill="#0a1a1a" stroke="rgba(16,185,129,0.5)" stroke-width="1"/>
+    <text x="510" y="59" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="#34d399">🦜 LangChain</text>
+
+    <!-- OpenCV -->
+    <rect x="564" y="44" width="84" height="22" rx="11" fill="#0a1818" stroke="rgba(16,185,129,0.4)" stroke-width="1"/>
+    <text x="606" y="59" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="#6ee7b7">👁 OpenCV</text>
+
+    <!-- YOLO -->
+    <rect x="654" y="44" width="66" height="22" rx="11" fill="#1a150a" stroke="rgba(234,179,8,0.5)" stroke-width="1"/>
+    <text x="687" y="59" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="#facc15">🎯 YOLO</text>
+
+    <!-- FastAPI -->
+    <rect x="726" y="44" width="76" height="22" rx="11" fill="#0a1818" stroke="rgba(16,185,129,0.4)" stroke-width="1"/>
+    <text x="764" y="59" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="#34d399">⚡ FastAPI</text>
+
+    <!-- Azure -->
+    <rect x="808" y="44" width="72" height="22" rx="11" fill="#0a1428" stroke="rgba(59,130,246,0.5)" stroke-width="1"/>
+    <text x="844" y="59" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="#60a5fa">☁ Azure</text>
+
+    <!-- Row 2: Tools & Stack -->
+    <text x="28" y="98" font-family="'JetBrains Mono',monospace" font-size="10" fill="#475569" letter-spacing="1">TOOLS</text>
+
+    <!-- Next.js -->
+    <rect x="90" y="85" width="78" height="22" rx="11" fill="#141414" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+    <text x="129" y="100" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="#e2e8f0">▲ Next.js</text>
+
+    <!-- Pandas -->
+    <rect x="174" y="85" width="76" height="22" rx="11" fill="#100a1e" stroke="rgba(167,139,250,0.5)" stroke-width="1"/>
+    <text x="212" y="100" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="#c4b5fd">🐼 Pandas</text>
+
+    <!-- Postman -->
+    <rect x="256" y="85" width="84" height="22" rx="11" fill="#1e120a" stroke="rgba(249,115,22,0.5)" stroke-width="1"/>
+    <text x="298" y="100" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="#fb923c">📮 Postman</text>
+
+    <!-- MySQL -->
+    <rect x="346" y="85" width="76" height="22" rx="11" fill="#0a1428" stroke="rgba(59,130,246,0.4)" stroke-width="1"/>
+    <text x="384" y="100" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="#60a5fa">🗄 MySQL</text>
+
+    <!-- Git -->
+    <rect x="428" y="85" width="58" height="22" rx="11" fill="#1e100a" stroke="rgba(239,68,68,0.5)" stroke-width="1"/>
+    <text x="457" y="100" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="#f87171">⎇ Git</text>
+
+    <!-- VSCode -->
+    <rect x="492" y="85" width="78" height="22" rx="11" fill="#0a1428" stroke="rgba(59,130,246,0.4)" stroke-width="1"/>
+    <text x="531" y="100" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="#93c5fd">💻 VSCode</text>
+
+    <!-- Jupyter -->
+    <rect x="576" y="85" width="78" height="22" rx="11" fill="#1e100a" stroke="rgba(249,115,22,0.4)" stroke-width="1"/>
+    <text x="615" y="100" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="#fdba74">📓 Jupyter</text>
+
+    <!-- Oracle OCI -->
+    <rect x="660" y="85" width="90" height="22" rx="11" fill="#1e0a0a" stroke="rgba(239,68,68,0.4)" stroke-width="1"/>
+    <text x="705" y="100" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="#fca5a5">🔮 Oracle OCI</text>
+
+    <!-- Backtrader -->
+    <rect x="756" y="85" width="96" height="22" rx="11" fill="#071a0e" stroke="rgba(16,185,129,0.4)" stroke-width="1"/>
+    <text x="804" y="100" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="#6ee7b7">📈 Backtrader</text>
+
+    <!-- Divider bottom -->
+    <line x1="22" y1="118" x2="898" y2="118" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+    <text x="28" y="127" font-family="'JetBrains Mono',monospace" font-size="9.5" fill="#374151">● 18 tools &amp; frameworks  //  Python · ML · CV · LLMs · Cloud · Full-Stack</text>
+  </g>
+</svg>
