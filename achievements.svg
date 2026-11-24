@@ -1,89 +1,142 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="888" height="230" viewBox="0 0 888 230" font-family="-apple-system,BlinkMacSystemFont,'JetBrains Mono','Segoe UI',sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="888" height="250" viewBox="0 0 888 250" font-family="-apple-system,BlinkMacSystemFont,'JetBrains Mono','Segoe UI',sans-serif">
   <defs>
-    <!-- Background Gradients -->
-    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+    <linearGradient id="ach-bg" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#070c18"/>
-      <stop offset="100%" stop-color="#03060c"/>
+      <stop offset="100%" stop-color="#030509"/>
     </linearGradient>
-    <linearGradient id="header-bg" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="ach-header" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#0f172a"/>
       <stop offset="100%" stop-color="#090d16"/>
     </linearGradient>
-    <linearGradient id="gold-card-bg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#1c1608"/>
+    <linearGradient id="gold-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1200"/>
       <stop offset="100%" stop-color="#0d0a04"/>
     </linearGradient>
-    <linearGradient id="cyan-card-bg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#081829"/>
-      <stop offset="100%" stop-color="#040c16"/>
+    <linearGradient id="cyan-bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#051828"/>
+      <stop offset="100%" stop-color="#030c14"/>
     </linearGradient>
-    <linearGradient id="green-card-bg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#071c14"/>
-      <stop offset="100%" stop-color="#030e0a"/>
+    <linearGradient id="green-bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#051a10"/>
+      <stop offset="100%" stop-color="#030c08"/>
     </linearGradient>
-    <linearGradient id="border-glow" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="rgba(0, 212, 255, 0.4)"/>
-      <stop offset="100%" stop-color="rgba(139, 92, 246, 0.2)"/>
+    <linearGradient id="gold-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
     </linearGradient>
-    <clipPath id="window-clip"><rect width="888" height="230" rx="10" ry="10"/></clipPath>
+    <linearGradient id="cyan-bar2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#00D4FF"/>
+    </linearGradient>
+    <linearGradient id="green-bar2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <linearGradient id="ach-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(0,212,255,0.4)"/>
+      <stop offset="100%" stop-color="rgba(139,92,246,0.2)"/>
+    </linearGradient>
+    <clipPath id="ach-clip"><rect width="888" height="250" rx="10"/></clipPath>
   </defs>
-  <g clip-path="url(#window-clip)">
-    <!-- Outer Terminal Window Shell -->
-    <rect width="888" height="230" fill="url(#bg)"/>
-    <rect x="0.5" y="0.5" width="887" height="229" fill="none" stroke="url(#border-glow)" stroke-width="1.2" rx="10" ry="10"/>
-    <!-- Title Bar -->
-    <rect width="888" height="34" fill="url(#header-bg)"/>
-    <line x1="0" y1="34" x2="888" y2="34" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1"/>
+  <style>
+    .bar-gold { animation: growBar 1.4s 0.2s cubic-bezier(0.4,0,0.2,1) both; transform-origin: left center; }
+    .bar-cyan  { animation: growBar 1.4s 0.4s cubic-bezier(0.4,0,0.2,1) both; transform-origin: left center; }
+    .bar-grn   { animation: growBar 1.4s 0.6s cubic-bezier(0.4,0,0.2,1) both; transform-origin: left center; }
+    @keyframes growBar { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    .c1 { opacity:0; animation: fadeUp 0.6s 0.1s ease-out both; }
+    .c2 { opacity:0; animation: fadeUp 0.6s 0.25s ease-out both; }
+    .c3 { opacity:0; animation: fadeUp 0.6s 0.4s ease-out both; }
+    @keyframes fadeUp { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:translateY(0); } }
+    .pdot { animation: pdot 2s ease-in-out infinite; }
+    @keyframes pdot { 0%,100%{opacity:1;} 50%{opacity:0.3;} }
+  </style>
+
+  <g clip-path="url(#ach-clip)">
+    <rect width="888" height="250" fill="url(#ach-bg)"/>
+    <rect x="0.5" y="0.5" width="887" height="249" fill="none" stroke="url(#ach-border)" stroke-width="1.2" rx="10"/>
+    <rect width="888" height="34" fill="url(#ach-header)"/>
+    <line x1="0" y1="34" x2="888" y2="34" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
     <circle cx="18" cy="17" r="4.5" fill="#ff5f56"/>
     <circle cx="32" cy="17" r="4.5" fill="#ffbd2e"/>
     <circle cx="46" cy="17" r="4.5" fill="#27c93f"/>
-    <text x="444" y="21" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11.5" fill="#8892A4">console // achievements --visualize</text>
-    <g transform="translate(24, 48)">
-      <g transform="translate(0, 0)">
-        <rect width="268" height="160" rx="8" fill="url(#gold-card-bg)" stroke="#fbbf24" stroke-width="1.2" stroke-opacity="0.6"/>
-        <path d="M 0,0 L 268,0" stroke="#fbbf24" stroke-width="3"/>
-        <text x="16" y="28" font-size="20">🏆</text>
-        <rect x="155" y="14" width="98" height="18" rx="9" fill="#2d2208" stroke="#fbbf24" stroke-width="1"/>
-        <text x="204" y="26" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#fbbf24">1st PLACE WINNER</text>
-        <text x="16" y="58" font-size="14" font-weight="bold" fill="#F8FAFC">Zero to One Hackathon</text>
-        <text x="16" y="75" font-size="11" fill="#94A3B8">Chandigarh University</text>
-        <g transform="translate(16, 92)">
-          <text x="0" y="0" font-family="'JetBrains Mono', monospace" font-size="10.5" fill="#fbbf24" font-weight="bold">FIELD: 600+ TEAMS BEATEN</text>
-          <rect x="0" y="8" width="236" height="8" rx="4" fill="#1f1807"/>
-          <rect x="0" y="8" width="236" height="8" rx="4" fill="#fbbf24"/>
-          <text x="236" y="28" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#F59E0B">Rank 1 / 600 (Top 0.1%)</text>
-        </g>
-      </g>
-      <g transform="translate(286, 0)">
-        <rect width="268" height="160" rx="8" fill="url(#cyan-card-bg)" stroke="#00D4FF" stroke-width="1.2" stroke-opacity="0.6"/>
-        <path d="M 0,0 L 268,0" stroke="#00D4FF" stroke-width="3"/>
-        <text x="16" y="28" font-size="20">🥈</text>
-        <rect x="155" y="14" width="98" height="18" rx="9" fill="#082238" stroke="#00D4FF" stroke-width="1"/>
-        <text x="204" y="26" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#00D4FF">RUNNER-UP AWARD</text>
-        <text x="16" y="58" font-size="14" font-weight="bold" fill="#F8FAFC">HackLLM Hackathon</text>
-        <text x="16" y="75" font-size="11" fill="#94A3B8">IIIT Delhi — LLM Agent Track</text>
-        <g transform="translate(16, 92)">
-          <text x="0" y="0" font-family="'JetBrains Mono', monospace" font-size="10.5" fill="#00D4FF" font-weight="bold">SCORE: 96/100 AGENT BENCHMARK</text>
-          <rect x="0" y="8" width="236" height="8" rx="4" fill="#051624"/>
-          <rect x="0" y="8" width="226" height="8" rx="4" fill="#00D4FF"/>
-          <text x="236" y="28" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#38BDF8">LLM Agent Architecture</text>
-        </g>
-      </g>
-      <g transform="translate(572, 0)">
-        <rect width="268" height="160" rx="8" fill="url(#green-card-bg)" stroke="#10b981" stroke-width="1.2" stroke-opacity="0.6"/>
-        <path d="M 0,0 L 268,0" stroke="#10b981" stroke-width="3"/>
-        <text x="16" y="28" font-size="20">📜</text>
-        <rect x="155" y="14" width="98" height="18" rx="9" fill="#06261c" stroke="#10b981" stroke-width="1"/>
-        <text x="204" y="26" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#10b981">5x CERTIFIED</text>
-        <text x="16" y="58" font-size="14" font-weight="bold" fill="#F8FAFC">Cloud &amp; AI Credentials</text>
-        <text x="16" y="75" font-size="11" fill="#94A3B8">Microsoft · Oracle · Postman</text>
-        <g transform="translate(16, 92)">
-          <text x="0" y="0" font-family="'JetBrains Mono', monospace" font-size="10.5" fill="#10b981" font-weight="bold">VERIFIED: AI-102 · DP-100 · DP-600</text>
-          <rect x="0" y="8" width="236" height="8" rx="4" fill="#061c14"/>
-          <rect x="0" y="8" width="236" height="8" rx="4" fill="#10b981"/>
-          <text x="236" y="28" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#34D399">100% Industry Exam Pass</text>
-        </g>
-      </g>
+    <circle class="pdot" cx="860" cy="17" r="4" fill="#10b981"/>
+    <text x="444" y="21" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11.5" fill="#8892A4">console // achievements --visualize --animated</text>
+
+    <!-- CARD 1: 1st Place -->
+    <g class="c1" transform="translate(20,46)">
+      <rect width="273" height="186" rx="8" fill="url(#gold-bg)"/>
+      <rect width="273" height="186" rx="8" fill="none" stroke="#fbbf24" stroke-width="1.2" stroke-opacity="0.55"/>
+      <rect y="0" width="273" height="3" rx="1.5" fill="url(#gold-bar)"/>
+      <text x="14" y="30" font-size="22">🏆</text>
+      <rect x="150" y="12" width="108" height="20" rx="10" fill="#201500" stroke="#fbbf24" stroke-width="1"/>
+      <text x="204" y="26" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="9.5" font-weight="700" fill="#fbbf24">1st PLACE WINNER</text>
+      <text x="14" y="62" font-size="13.5" font-weight="bold" fill="#F8FAFC">Zero to One Hackathon</text>
+      <text x="14" y="80" font-size="11" fill="#94A3B8">Chandigarh University · 2024</text>
+      <line x1="14" y1="92" x2="258" y2="92" stroke="rgba(251,191,36,0.2)" stroke-width="1"/>
+      <text x="14" y="110" font-family="'JetBrains Mono',monospace" font-size="10" fill="#94A3B8">Teams Outperformed</text>
+      <text x="258" y="110" text-anchor="end" font-family="'JetBrains Mono',monospace" font-size="10" font-weight="700" fill="#fbbf24">600+</text>
+      <rect x="14" y="115" width="244" height="6" rx="3" fill="#1a1200"/>
+      <rect class="bar-gold" x="14" y="115" width="244" height="6" rx="3" fill="url(#gold-bar)"/>
+      <text x="14" y="140" font-family="'JetBrains Mono',monospace" font-size="10" fill="#94A3B8">Competition Rank</text>
+      <text x="258" y="140" text-anchor="end" font-family="'JetBrains Mono',monospace" font-size="10" font-weight="700" fill="#fbbf24">1 / 600</text>
+      <rect x="14" y="145" width="244" height="6" rx="3" fill="#1a1200"/>
+      <rect class="bar-gold" x="14" y="145" width="244" height="6" rx="3" fill="url(#gold-bar)"/>
+      <rect x="14" y="162" width="80" height="16" rx="8" fill="#2d1f00"/>
+      <text x="54" y="174" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="9" fill="#f59e0b">Top 0.16%</text>
+      <rect x="102" y="162" width="88" height="16" rx="8" fill="#1a1200"/>
+      <text x="146" y="174" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="9" fill="#fbbf24">AI · Innovation</text>
+    </g>
+
+    <!-- CARD 2: HackLLM -->
+    <g class="c2" transform="translate(307,46)">
+      <rect width="273" height="186" rx="8" fill="url(#cyan-bg2)"/>
+      <rect width="273" height="186" rx="8" fill="none" stroke="#00D4FF" stroke-width="1.2" stroke-opacity="0.55"/>
+      <rect y="0" width="273" height="3" rx="1.5" fill="url(#cyan-bar2)"/>
+      <text x="14" y="30" font-size="22">🥈</text>
+      <rect x="150" y="12" width="108" height="20" rx="10" fill="#031c2e" stroke="#00D4FF" stroke-width="1"/>
+      <text x="204" y="26" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="9.5" font-weight="700" fill="#00D4FF">RUNNER-UP AWARD</text>
+      <text x="14" y="62" font-size="13.5" font-weight="bold" fill="#F8FAFC">HackLLM Hackathon</text>
+      <text x="14" y="80" font-size="11" fill="#94A3B8">IIIT Delhi · LLM Agent Track</text>
+      <line x1="14" y1="92" x2="258" y2="92" stroke="rgba(0,212,255,0.2)" stroke-width="1"/>
+      <text x="14" y="110" font-family="'JetBrains Mono',monospace" font-size="10" fill="#94A3B8">Agent Benchmark Score</text>
+      <text x="258" y="110" text-anchor="end" font-family="'JetBrains Mono',monospace" font-size="10" font-weight="700" fill="#00D4FF">96/100</text>
+      <rect x="14" y="115" width="244" height="6" rx="3" fill="#031c2e"/>
+      <rect class="bar-cyan" x="14" y="115" width="236" height="6" rx="3" fill="url(#cyan-bar2)"/>
+      <text x="14" y="140" font-family="'JetBrains Mono',monospace" font-size="10" fill="#94A3B8">Leaderboard Position</text>
+      <text x="258" y="140" text-anchor="end" font-family="'JetBrains Mono',monospace" font-size="10" font-weight="700" fill="#00D4FF">Top 2</text>
+      <rect x="14" y="145" width="244" height="6" rx="3" fill="#031c2e"/>
+      <rect class="bar-cyan" x="14" y="145" width="230" height="6" rx="3" fill="url(#cyan-bar2)"/>
+      <rect x="14" y="162" width="88" height="16" rx="8" fill="#031824"/>
+      <text x="58" y="174" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="9" fill="#38bdf8">LLM Agents</text>
+      <rect x="110" y="162" width="88" height="16" rx="8" fill="#031824"/>
+      <text x="154" y="174" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="9" fill="#00D4FF">RAG · Tool Use</text>
+    </g>
+
+    <!-- CARD 3: 5x Certifications -->
+    <g class="c3" transform="translate(594,46)">
+      <rect width="273" height="186" rx="8" fill="url(#green-bg2)"/>
+      <rect width="273" height="186" rx="8" fill="none" stroke="#10b981" stroke-width="1.2" stroke-opacity="0.55"/>
+      <rect y="0" width="273" height="3" rx="1.5" fill="url(#green-bar2)"/>
+      <text x="14" y="30" font-size="22">🎓</text>
+      <rect x="150" y="12" width="108" height="20" rx="10" fill="#03260f" stroke="#10b981" stroke-width="1"/>
+      <text x="204" y="26" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="9.5" font-weight="700" fill="#10b981">5× CERTIFIED</text>
+      <text x="14" y="62" font-size="13.5" font-weight="bold" fill="#F8FAFC">Cloud &amp; AI Credentials</text>
+      <text x="14" y="80" font-size="11" fill="#94A3B8">Microsoft · Oracle · Postman</text>
+      <line x1="14" y1="92" x2="258" y2="92" stroke="rgba(16,185,129,0.2)" stroke-width="1"/>
+      <rect x="14" y="100" width="116" height="17" rx="8" fill="#061c10" stroke="rgba(16,185,129,0.4)" stroke-width="1"/>
+      <text x="72" y="112" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="9" fill="#34d399">Azure AI-102</text>
+      <rect x="136" y="100" width="116" height="17" rx="8" fill="#061c10" stroke="rgba(16,185,129,0.4)" stroke-width="1"/>
+      <text x="194" y="112" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="9" fill="#34d399">Azure DP-100</text>
+      <rect x="14" y="122" width="116" height="17" rx="8" fill="#061c10" stroke="rgba(16,185,129,0.3)" stroke-width="1"/>
+      <text x="72" y="134" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="9" fill="#6ee7b7">Fabric DP-600</text>
+      <rect x="136" y="122" width="116" height="17" rx="8" fill="#061c10" stroke="rgba(16,185,129,0.3)" stroke-width="1"/>
+      <text x="194" y="134" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="9" fill="#6ee7b7">Oracle OCI</text>
+      <rect x="14" y="144" width="244" height="17" rx="8" fill="#03260f" stroke="rgba(139,92,246,0.4)" stroke-width="1"/>
+      <text x="136" y="156" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="9" fill="#a78bfa">Postman Student Expert</text>
+      <text x="14" y="176" font-family="'JetBrains Mono',monospace" font-size="9.5" fill="#94A3B8">Industry Exam Pass Rate</text>
+      <text x="258" y="176" text-anchor="end" font-family="'JetBrains Mono',monospace" font-size="9.5" font-weight="700" fill="#10b981">100%</text>
+      <rect x="14" y="180" width="244" height="4" rx="2" fill="#051a10"/>
+      <rect class="bar-grn" x="14" y="180" width="244" height="4" rx="2" fill="url(#green-bar2)"/>
     </g>
   </g>
 </svg>
